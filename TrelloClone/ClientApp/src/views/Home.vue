@@ -9,17 +9,51 @@
             <v-layout justify-center column>
               <v-flex xs12 text-xs-center>
                 <div class="display-2 font-weight-bold lh-1">Trello Clone Project</div>
-                <p class="headline font-weight-light lh-1 ls-1">(Asp.net Core + Vue.js + Vuetify + Vuex + Vue-router + Vee-validate + axios + JWT)</p>
+                <p class="headline font-weight-light lh-1 ls-1">(Asp.net Core + Vue.js)</p>
               </v-flex>
-              <v-flex class="mt-5">
+            </v-layout>
+            <v-layout row class="mt-5">
+              <v-flex xs6>
+                <div class="pb-1"> &nbsp;&nbsp;Back-end</div>
+                <ul>  
+                  <li>ASP.NET Core (메인 프레임워크)</li>
+                  <li>SQL Server + EntityFramwork Core (데이터베이스)</li>
+                  <li>JWT (사용자 인증 및 세션관리)</li>
+                  <li>Swagger (API 문서 자동생성)</li>
+                  <li>NLog (로그생성)</li>
+                  <li>AutoMapper (객체 자동 매핑)</li>
+                </ul>
+                <br>
+
+                <div class="pb-1"> &nbsp;&nbsp;Front-end</div>
+                <ul>
+                  <li>Vue.js (메인 프레임워크)</li>
+                    <li>Vuetify (UI 프레임워크)</li>
+                    <li>vuex (상태관리)</li>
+                    <li>vue-router (클라이언트 라우팅)</li>
+                    <li>axios (promise기반 http통신)</li>
+                    <li>lodash (자바스크립트 유틸)</li>
+                    <li>vee-validate (폼 유효성검사)</li>
+                    <li>nprogress (로딩바)</li>
+                </ul>
+              </v-flex>
+
+              <v-flex xs6>
                 <div class="pb-1"> &nbsp;&nbsp;개발 상세내용</div>
                 <ul>
                   <li>PC화면 전용. Mobile은 고려되지 않음</li>
                   <li>서버사이드렌더링(SSR) 적용하지 않음 (Asp.net Razor로 적용가능함)</li>
-                  <li>라우팅, Api통신시 로딩바(nprogress) 동작하도록 전역에 적용</li>
-                  <li>JWT로 사용자 인증 및 세션관리</li>
-                  <li>JWT 토큰은 쿠키에 저장</li>
-                  <li>토큰 만료시간 50%이내에 요청시 토큰 재발급</li>
+                  <li>패스워드는 hmacsha512로 암호화 (더 안전한 방법필요)</li>
+                  <li>JWT를 쿠키에 저장함. (httpOnly, secure)</li>
+                  <li>토큰관련 미들웨어 2개 생성
+                    <ol>
+                      <li>JWTInHeaderMiddleware: 쿠키로 넘어온 토큰을 헤더에 주입</li>
+                      <li>JWTRefreshMiddleware: 토큰 만료기간 50%이내에 요청시 토큰 자동 재발급</li>
+                    </ol>
+                  </li>
+                  <li>토큰 유효성검사시 IP도 체크함. 토큰생성 IP와 다르면 권한없음</li>
+                  <li>lodash의 debounce로 연속된 키입력에 의한 연속 api호출 방지</li>
+                  <li>nprogress를 전역에 등록하여 라우팅, api전송시에 자동으로 로딩바 표시</li>
                 </ul>
               </v-flex>
             </v-layout>

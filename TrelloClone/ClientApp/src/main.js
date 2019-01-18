@@ -5,28 +5,8 @@ import router from './routes'
 import store from './store'
 import VeeValidate from 'vee-validate'
 import Lodash from 'lodash'
-import axios from 'axios'
-import NProgress from 'nprogress'
 
-import 'nprogress/nprogress.css'
-
-// axios
-const instanceAxios = axios.create()
-instanceAxios.interceptors.request.use(config => {
-    NProgress.start()
-    return config
-})
-instanceAxios.interceptors.response.use(response => {
-    NProgress.done()
-    return response
-}, error => {
-    NProgress.done()
-    return Promise.reject(error)
-})
-instanceAxios.defaults.withCredentials = true;
-
-Vue.prototype.$axios = instanceAxios;
-Vue.prototype.$nprogress = NProgress;
+require('./api')
 
 Vue.config.productionTip = false
 
