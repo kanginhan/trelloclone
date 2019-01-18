@@ -1,0 +1,395 @@
+2019-01-17 12:45:20.2642||DEBUG|TrelloClone.Program|init main 
+2019-01-17 12:45:24.9411||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-17 12:45:25.5612|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/   
+2019-01-17 12:45:25.6933|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/index.html'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\index.html' 
+2019-01-17 12:45:25.7124|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 151.5327ms 200 text/html 
+2019-01-17 12:45:25.7558|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/css/app.e87735e6.css   
+2019-01-17 12:45:25.7558|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/css/chunk-vendors.8d6f6e44.css   
+2019-01-17 12:45:25.7558|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/app.eca49f29.js   
+2019-01-17 12:45:25.7558|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/chunk-vendors.520f25f9.js   
+2019-01-17 12:45:25.7558|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/app.e87735e6.css'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\css\app.e87735e6.css' 
+2019-01-17 12:45:25.7750|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 19.1266ms 200 text/css 
+2019-01-17 12:45:25.8745|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/chunk-vendors.8d6f6e44.css'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\css\chunk-vendors.8d6f6e44.css' 
+2019-01-17 12:45:25.8745|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 131.0598ms 200 text/css 
+2019-01-17 12:45:25.9369|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/app.eca49f29.js'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\app.eca49f29.js' 
+2019-01-17 12:45:25.9728|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 215.3285ms 200 application/javascript 
+2019-01-17 12:45:26.0674|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/chunk-vendors.520f25f9.js'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\chunk-vendors.520f25f9.js' 
+2019-01-17 12:45:26.0674|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 308.2645ms 200 application/javascript 
+2019-01-17 12:45:26.3838|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-national-geographic.d53964ff.svg   
+2019-01-17 12:45:26.3838|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-adobe.be09cc20.svg   
+2019-01-17 12:45:26.3838|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-google.57bdf532.svg   
+2019-01-17 12:45:26.3838|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-kickstarter.4009d27e.svg   
+2019-01-17 12:45:26.3838|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/hero-a.2a8153ef.svg   
+2019-01-17 12:45:26.4079|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-fender.42736054.svg   
+2019-01-17 12:45:26.4079|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-board.ec632c01.png   
+2019-01-17 12:45:26.4079|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-mobile.dda69d91.png   
+2019-01-17 12:45:26.4295|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-1.ee4128a9.png   
+2019-01-17 12:45:26.4295|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-2.7f413dbd.png   
+2019-01-17 12:45:26.4368|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-board.ec632c01.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-board.ec632c01.png' 
+2019-01-17 12:45:26.4368|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.412ms 200 image/png 
+2019-01-17 12:45:26.4368|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-mobile.dda69d91.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-mobile.dda69d91.png' 
+2019-01-17 12:45:26.4368|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-national-geographic.d53964ff.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-national-geographic.d53964ff.svg' 
+2019-01-17 12:45:26.4368|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-google.57bdf532.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-google.57bdf532.svg' 
+2019-01-17 12:45:26.4588|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 46.5316ms 200 image/png 
+2019-01-17 12:45:26.4588|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 77.065ms 200 image/svg+xml 
+2019-01-17 12:45:26.4588|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-2.7f413dbd.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-2.7f413dbd.png' 
+2019-01-17 12:45:26.4688|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34.878ms 200 image/png 
+2019-01-17 12:45:26.4588|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 81.3384ms 200 image/svg+xml 
+2019-01-17 12:45:26.4588|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-adobe.be09cc20.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-adobe.be09cc20.svg' 
+2019-01-17 12:45:26.4688|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/hero-a.2a8153ef.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\hero-a.2a8153ef.svg' 
+2019-01-17 12:45:26.4688|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.7752ms 200 image/svg+xml 
+2019-01-17 12:45:26.4688|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-fender.42736054.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-fender.42736054.svg' 
+2019-01-17 12:45:26.4688|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 75.1711ms 200 image/svg+xml 
+2019-01-17 12:45:26.4588|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-kickstarter.4009d27e.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-kickstarter.4009d27e.svg' 
+2019-01-17 12:45:26.4923|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 107.6905ms 200 image/svg+xml 
+2019-01-17 12:45:26.4688|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.9017ms 200 image/svg+xml 
+2019-01-17 12:45:26.4923|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-1.ee4128a9.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-1.ee4128a9.png' 
+2019-01-17 12:45:26.5192|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.6887ms 200 image/png 
+2019-01-17 12:45:26.5192|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-4.a9caa802.png   
+2019-01-17 12:45:26.5192|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-5.56318164.png   
+2019-01-17 12:45:26.5192|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-collab.0cad30a9.png   
+2019-01-17 12:45:26.5192|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-platform.15e77c83.png   
+2019-01-17 12:45:26.5445|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-sync.6eaaf5e3.png   
+2019-01-17 12:45:26.5457|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-collab.0cad30a9.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-collab.0cad30a9.png' 
+2019-01-17 12:45:26.5457|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.6799ms 200 image/png 
+2019-01-17 12:45:26.5457|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-platform.15e77c83.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-platform.15e77c83.png' 
+2019-01-17 12:45:26.5619|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.8229ms 200 image/png 
+2019-01-17 12:45:26.5619|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/btn-appstore-black.eebf313c.png   
+2019-01-17 12:45:26.5457|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-3.b241475a.png   
+2019-01-17 12:45:26.5457|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/network-3537401_1280.0573fd77.jpg   
+2019-01-17 12:45:26.5619|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-sync.6eaaf5e3.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-sync.6eaaf5e3.png' 
+2019-01-17 12:45:26.5619|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/btn-appstore-black.eebf313c.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\btn-appstore-black.eebf313c.png' 
+2019-01-17 12:45:26.5619|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.0439ms 200 image/png 
+2019-01-17 12:45:26.5619|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27.4861ms 200 image/png 
+2019-01-17 12:45:26.5790|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-5.56318164.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-5.56318164.png' 
+2019-01-17 12:45:26.5790|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.1262ms 200 image/png 
+2019-01-17 12:45:26.5935|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/btn-playstore-black.bcde9868.png   
+2019-01-17 12:45:26.5935|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-3.b241475a.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-3.b241475a.png' 
+2019-01-17 12:45:26.6136|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.5194ms 200 image/png 
+2019-01-17 12:45:26.6136|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-4.a9caa802.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-4.a9caa802.png' 
+2019-01-17 12:45:26.6136|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/btn-playstore-black.bcde9868.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\btn-playstore-black.bcde9868.png' 
+2019-01-17 12:45:26.6246|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.1212ms 200 image/png 
+2019-01-17 12:45:26.6246|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 98.4572ms 200 image/png 
+2019-01-17 12:45:26.6246|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/network-3537401_1280.0573fd77.jpg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\network-3537401_1280.0573fd77.jpg' 
+2019-01-17 12:45:26.6524|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 92.217ms 200 image/jpeg 
+2019-01-17 12:58:59.4948||DEBUG|TrelloClone.Program|init main 
+2019-01-17 12:59:00.2650||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-17 12:59:00.4930|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/   
+2019-01-17 12:59:00.6011|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/index.html'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\index.html' 
+2019-01-17 12:59:00.6174|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 124.6982ms 200 text/html 
+2019-01-17 12:59:00.6527|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/css/app.e87735e6.css   
+2019-01-17 12:59:00.6527|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/css/chunk-vendors.600fd65d.css   
+2019-01-17 12:59:00.6562|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/chunk-vendors.d6f93487.js   
+2019-01-17 12:59:00.6562|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/app.0d306e15.js   
+2019-01-17 12:59:00.6562|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/app.e87735e6.css'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\css\app.e87735e6.css' 
+2019-01-17 12:59:00.6713|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 18.5857ms 200 text/css 
+2019-01-17 12:59:00.7332|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/chunk-vendors.600fd65d.css'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\css\chunk-vendors.600fd65d.css' 
+2019-01-17 12:59:00.7364|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 81.9414ms 200 text/css 
+2019-01-17 12:59:00.8456|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/app.0d306e15.js'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\app.0d306e15.js' 
+2019-01-17 12:59:00.8456|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 199.5323ms 200 application/javascript 
+2019-01-17 12:59:00.9232|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/chunk-vendors.d6f93487.js'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\chunk-vendors.d6f93487.js' 
+2019-01-17 12:59:00.9232|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 269.752ms 200 application/javascript 
+2019-01-17 12:59:01.1282|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-adobe.be09cc20.svg   
+2019-01-17 12:59:01.1282|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-national-geographic.d53964ff.svg   
+2019-01-17 12:59:01.1282|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-kickstarter.4009d27e.svg   
+2019-01-17 12:59:01.1282|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-google.57bdf532.svg   
+2019-01-17 12:59:01.1282|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-fender.42736054.svg   
+2019-01-17 12:59:01.1572|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-kickstarter.4009d27e.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-kickstarter.4009d27e.svg' 
+2019-01-17 12:59:01.1572|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-adobe.be09cc20.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-adobe.be09cc20.svg' 
+2019-01-17 12:59:01.1572|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.8935ms 200 image/svg+xml 
+2019-01-17 12:59:01.1572|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-google.57bdf532.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-google.57bdf532.svg' 
+2019-01-17 12:59:01.1572|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 35.0723ms 200 image/svg+xml 
+2019-01-17 12:59:01.1572|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-national-geographic.d53964ff.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-national-geographic.d53964ff.svg' 
+2019-01-17 12:59:01.1572|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.6929ms 200 image/svg+xml 
+2019-01-17 12:59:01.1572|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.649ms 200 image/svg+xml 
+2019-01-17 12:59:01.2008|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-fender.42736054.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-fender.42736054.svg' 
+2019-01-17 12:59:01.2094|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 78.7971ms 200 image/svg+xml 
+2019-01-17 12:59:01.2253|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/hero-a.2a8153ef.svg   
+2019-01-17 12:59:01.2382|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-1.ee4128a9.png   
+2019-01-17 12:59:01.2382|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-2.7f413dbd.png   
+2019-01-17 12:59:01.2382|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-4.a9caa802.png   
+2019-01-17 12:59:01.2382|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-3.b241475a.png   
+2019-01-17 12:59:01.2509|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-5.56318164.png   
+2019-01-17 12:59:01.2509|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-collab.0cad30a9.png   
+2019-01-17 12:59:01.2509|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-board.ec632c01.png   
+2019-01-17 12:59:01.2509|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-mobile.dda69d91.png   
+2019-01-17 12:59:01.2509|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-collab.0cad30a9.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-collab.0cad30a9.png' 
+2019-01-17 12:59:01.2673|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.1872ms 200 image/png 
+2019-01-17 12:59:01.2509|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-board.ec632c01.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-board.ec632c01.png' 
+2019-01-17 12:59:01.2673|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 19.8498ms 200 image/png 
+2019-01-17 12:59:01.2509|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-platform.15e77c83.png   
+2019-01-17 12:59:01.2673|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-mobile.dda69d91.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-mobile.dda69d91.png' 
+2019-01-17 12:59:01.2858|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.203ms 200 image/png 
+2019-01-17 12:59:01.2858|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/hero-a.2a8153ef.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\hero-a.2a8153ef.svg' 
+2019-01-17 12:59:01.2858|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-platform.15e77c83.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-platform.15e77c83.png' 
+2019-01-17 12:59:01.2858|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-4.a9caa802.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-4.a9caa802.png' 
+2019-01-17 12:59:01.2858|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-3.b241475a.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-3.b241475a.png' 
+2019-01-17 12:59:01.2983|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 62.5936ms 200 image/png 
+2019-01-17 12:59:01.2983|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.8922ms 200 image/png 
+2019-01-17 12:59:01.2983|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.6076ms 200 image/png 
+2019-01-17 12:59:01.2983|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 72.9951ms 200 image/svg+xml 
+2019-01-17 12:59:01.3186|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-2.7f413dbd.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-2.7f413dbd.png' 
+2019-01-17 12:59:01.3186|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-5.56318164.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-5.56318164.png' 
+2019-01-17 12:59:01.3300|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 79.0975ms 200 image/png 
+2019-01-17 12:59:01.3186|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 83.1745ms 200 image/png 
+2019-01-17 12:59:01.3186|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/btn-appstore-black.eebf313c.png   
+2019-01-17 12:59:01.3300|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-1.ee4128a9.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-1.ee4128a9.png' 
+2019-01-17 12:59:01.3300|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/network-3537401_1280.0573fd77.jpg   
+2019-01-17 12:59:01.3300|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 99.5239ms 200 image/png 
+2019-01-17 12:59:01.3300|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/btn-appstore-black.eebf313c.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\btn-appstore-black.eebf313c.png' 
+2019-01-17 12:59:01.3432|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.8756ms 200 image/png 
+2019-01-17 12:59:01.3850|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/btn-playstore-black.bcde9868.png   
+2019-01-17 12:59:01.4152|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/network-3537401_1280.0573fd77.jpg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\network-3537401_1280.0573fd77.jpg' 
+2019-01-17 12:59:01.4152|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/btn-playstore-black.bcde9868.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\btn-playstore-black.bcde9868.png' 
+2019-01-17 12:59:01.4686|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 83.5479ms 200 image/png 
+2019-01-17 12:59:01.4671|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 132.4875ms 200 image/jpeg 
+2019-01-17 12:59:01.4380|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-sync.6eaaf5e3.png   
+2019-01-17 12:59:01.5060|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-sync.6eaaf5e3.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-sync.6eaaf5e3.png' 
+2019-01-17 12:59:01.5060|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 69.8396ms 200 image/png 
+2019-01-17 12:59:01.5857|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/favicon.ico   
+2019-01-17 12:59:01.7755|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\favicon.ico' 
+2019-01-17 12:59:01.7755|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 191.5864ms 200 image/x-icon 
+2019-01-17 21:02:44.9989||DEBUG|TrelloClone.Program|init main 
+2019-01-17 21:02:50.7297||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-17 21:02:51.3753|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/   
+2019-01-17 21:02:51.5411|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/index.html'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\index.html' 
+2019-01-17 21:02:51.5854|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 209.6027ms 200 text/html 
+2019-01-17 21:02:51.6565|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/css/app.e87735e6.css   
+2019-01-17 21:02:51.6565|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/css/chunk-vendors.600fd65d.css   
+2019-01-17 21:02:51.6565|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/app.e87735e6.css'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\css\app.e87735e6.css' 
+2019-01-17 21:02:51.6565|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/chunk-vendors.d6f93487.js   
+2019-01-17 21:02:51.6808|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/app.0d306e15.js   
+2019-01-17 21:02:51.6808|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.9592ms 200 text/css 
+2019-01-17 21:02:51.7063|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/chunk-vendors.600fd65d.css'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\css\chunk-vendors.600fd65d.css' 
+2019-01-17 21:02:51.7063|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 53.5853ms 200 text/css 
+2019-01-17 21:02:51.9631|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/app.0d306e15.js'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\app.0d306e15.js' 
+2019-01-17 21:02:51.9877|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 306.8752ms 200 application/javascript 
+2019-01-17 21:02:52.1279|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/chunk-vendors.d6f93487.js'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\chunk-vendors.d6f93487.js' 
+2019-01-17 21:02:52.1279|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 468.4445ms 200 application/javascript 
+2019-01-17 21:02:52.7280|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-google.57bdf532.svg   
+2019-01-17 21:02:52.7280|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-adobe.be09cc20.svg   
+2019-01-17 21:02:52.7362|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-kickstarter.4009d27e.svg   
+2019-01-17 21:02:52.7362|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-board.ec632c01.png   
+2019-01-17 21:02:52.7362|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-mobile.dda69d91.png   
+2019-01-17 21:02:52.7362|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-2.7f413dbd.png   
+2019-01-17 21:02:52.7537|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-1.ee4128a9.png   
+2019-01-17 21:02:52.7537|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-4.a9caa802.png   
+2019-01-17 21:02:52.7537|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-3.b241475a.png   
+2019-01-17 21:02:52.7537|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-5.56318164.png   
+2019-01-17 21:02:52.7666|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-national-geographic.d53964ff.svg   
+2019-01-17 21:02:52.7666|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-fender.42736054.svg   
+2019-01-17 21:02:52.7666|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-platform.15e77c83.png   
+2019-01-17 21:02:52.7822|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-sync.6eaaf5e3.png   
+2019-01-17 21:02:52.7822|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-board.ec632c01.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-board.ec632c01.png' 
+2019-01-17 21:02:52.7822|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-mobile.dda69d91.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-mobile.dda69d91.png' 
+2019-01-17 21:02:52.7822|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/hero-a.2a8153ef.svg   
+2019-01-17 21:02:52.8014|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 59.7039ms 200 image/png 
+2019-01-17 21:02:52.8014|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/network-3537401_1280.0573fd77.jpg   
+2019-01-17 21:02:52.8014|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 61.9127ms 200 image/png 
+2019-01-17 21:02:52.8014|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-platform.15e77c83.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-platform.15e77c83.png' 
+2019-01-17 21:02:52.8178|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.7819ms 200 image/png 
+2019-01-17 21:02:52.8178|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/btn-appstore-black.eebf313c.png   
+2019-01-17 21:02:52.8014|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-sync.6eaaf5e3.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-sync.6eaaf5e3.png' 
+2019-01-17 21:02:52.8332|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/btn-playstore-black.bcde9868.png   
+2019-01-17 21:02:52.8332|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 52.5257ms 200 image/png 
+2019-01-17 21:02:52.8332|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/btn-appstore-black.eebf313c.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\btn-appstore-black.eebf313c.png' 
+2019-01-17 21:02:52.8432|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.2013ms 200 image/png 
+2019-01-17 21:02:52.8332|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-collab.0cad30a9.png   
+2019-01-17 21:02:52.8432|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/btn-playstore-black.bcde9868.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\btn-playstore-black.bcde9868.png' 
+2019-01-17 21:02:52.8432|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-kickstarter.4009d27e.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-kickstarter.4009d27e.svg' 
+2019-01-17 21:02:52.8613|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 131.2559ms 200 image/svg+xml 
+2019-01-17 21:02:52.8613|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 31.9188ms 200 image/png 
+2019-01-17 21:02:52.8613|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-collab.0cad30a9.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-collab.0cad30a9.png' 
+2019-01-17 21:02:52.8613|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-google.57bdf532.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-google.57bdf532.svg' 
+2019-01-17 21:02:52.8760|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-national-geographic.d53964ff.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-national-geographic.d53964ff.svg' 
+2019-01-17 21:02:52.8760|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-adobe.be09cc20.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-adobe.be09cc20.svg' 
+2019-01-17 21:02:52.8760|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 41.5248ms 200 image/png 
+2019-01-17 21:02:52.8760|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 152.3885ms 200 image/svg+xml 
+2019-01-17 21:02:52.8760|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 115.3468ms 200 image/svg+xml 
+2019-01-17 21:02:52.8760|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 153.8452ms 200 image/svg+xml 
+2019-01-17 21:02:52.9024|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/hero-a.2a8153ef.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\hero-a.2a8153ef.svg' 
+2019-01-17 21:02:52.9112|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 116.898ms 200 image/svg+xml 
+2019-01-17 21:02:52.9112|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-5.56318164.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-5.56318164.png' 
+2019-01-17 21:02:52.9359|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 171.6841ms 200 image/png 
+2019-01-17 21:02:52.8760|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-fender.42736054.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-fender.42736054.svg' 
+2019-01-17 21:02:52.9380|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 164.3334ms 200 image/svg+xml 
+2019-01-17 21:02:52.8760|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-4.a9caa802.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-4.a9caa802.png' 
+2019-01-17 21:02:52.9380|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 192.615ms 200 image/png 
+2019-01-17 21:02:52.9024|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-2.7f413dbd.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-2.7f413dbd.png' 
+2019-01-17 21:02:52.9534|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 207.3227ms 200 image/png 
+2019-01-17 21:02:52.9534|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/network-3537401_1280.0573fd77.jpg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\network-3537401_1280.0573fd77.jpg' 
+2019-01-17 21:02:52.9380|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-3.b241475a.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-3.b241475a.png' 
+2019-01-17 21:02:52.9534|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-1.ee4128a9.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-1.ee4128a9.png' 
+2019-01-17 21:02:52.9708|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 168.6371ms 200 image/jpeg 
+2019-01-17 21:02:52.9708|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 212.5121ms 200 image/png 
+2019-01-17 21:02:52.9708|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 222.3138ms 200 image/png 
+2019-01-17 21:03:43.6942|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/css/chunk-vendors.600fd65d.css   
+2019-01-17 21:03:43.6942|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/chunk-vendors.600fd65d.css was not modified 
+2019-01-17 21:03:43.7119|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.7909ms 304 text/css 
+2019-01-17 21:03:43.7424|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/css/app.e87735e6.css   
+2019-01-17 21:03:43.7424|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /css/app.e87735e6.css was not modified 
+2019-01-17 21:03:43.7554|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/chunk-vendors.d6f93487.js.map   
+2019-01-17 21:03:43.7670|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.5826ms 304 text/css 
+2019-01-17 21:03:43.7821|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/app.0d306e15.js.map   
+2019-01-17 21:03:43.8600|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/chunk-vendors.d6f93487.js.map'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\chunk-vendors.d6f93487.js.map' 
+2019-01-17 21:03:43.8749|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 119.5088ms 200 text/plain 
+2019-01-17 21:03:43.9022|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/app.0d306e15.js.map'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\app.0d306e15.js.map' 
+2019-01-17 21:03:43.9159|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 133.7154ms 200 text/plain 
+2019-01-17 21:03:54.6369|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/   
+2019-01-17 21:03:54.6542|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/index.html'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\index.html' 
+2019-01-17 21:03:54.6577|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.8149ms 200 text/html 
+2019-01-17 21:03:55.3397|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/app.98dd12e4.js   
+2019-01-17 21:03:55.3397|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/chunk-vendors.fb9cb9db.js   
+2019-01-17 21:03:55.3397|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/css/app.f0c1b3f4.css   
+2019-01-17 21:03:55.3397|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/css/chunk-vendors.923db386.css   
+2019-01-17 21:03:55.3504|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/app.f0c1b3f4.css'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\css\app.f0c1b3f4.css' 
+2019-01-17 21:03:55.3616|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.4429ms 200 text/css 
+2019-01-17 21:03:55.3762|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/chunk-vendors.923db386.css'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\css\chunk-vendors.923db386.css' 
+2019-01-17 21:03:55.3762|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 38.4983ms 200 text/css 
+2019-01-17 21:03:55.4530|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/app.98dd12e4.js'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\app.98dd12e4.js' 
+2019-01-17 21:03:55.4530|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 117.1378ms 200 application/javascript 
+2019-01-17 21:03:55.6315|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/chunk-vendors.fb9cb9db.js'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\chunk-vendors.fb9cb9db.js' 
+2019-01-17 21:03:55.6315|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 293.9271ms 200 application/javascript 
+2019-01-17 21:03:55.9224|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-kickstarter.4009d27e.svg   
+2019-01-17 21:03:55.9224|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-adobe.be09cc20.svg   
+2019-01-17 21:03:55.9224|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-national-geographic.d53964ff.svg   
+2019-01-17 21:03:55.9224|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-google.57bdf532.svg   
+2019-01-17 21:03:55.9224|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-fender.42736054.svg   
+2019-01-17 21:03:55.9563|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-national-geographic.d53964ff.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-national-geographic.d53964ff.svg' 
+2019-01-17 21:03:55.9563|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-adobe.be09cc20.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-adobe.be09cc20.svg' 
+2019-01-17 21:03:55.9563|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 38.6478ms 200 image/svg+xml 
+2019-01-17 21:03:55.9563|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-kickstarter.4009d27e.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-kickstarter.4009d27e.svg' 
+2019-01-17 21:03:55.9563|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 42.7515ms 200 image/svg+xml 
+2019-01-17 21:03:55.9563|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-google.57bdf532.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-google.57bdf532.svg' 
+2019-01-17 21:03:55.9691|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.6165ms 200 image/svg+xml 
+2019-01-17 21:03:55.9563|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34.7574ms 200 image/svg+xml 
+2019-01-17 21:03:55.9563|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/logo-fender.42736054.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\logo-fender.42736054.svg' 
+2019-01-17 21:03:55.9691|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 50.7394ms 200 image/svg+xml 
+2019-01-17 21:03:56.0062|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/hero-a.2a8153ef.svg   
+2019-01-17 21:03:56.0062|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-board.ec632c01.png   
+2019-01-17 21:03:56.0207|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-board.ec632c01.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-board.ec632c01.png' 
+2019-01-17 21:03:56.0207|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-mobile.dda69d91.png   
+2019-01-17 21:03:56.0207|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-1.ee4128a9.png   
+2019-01-17 21:03:56.0207|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.6215ms 200 image/png 
+2019-01-17 21:03:56.0309|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-2.7f413dbd.png   
+2019-01-17 21:03:56.0309|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-3.b241475a.png   
+2019-01-17 21:03:56.0309|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-mobile.dda69d91.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-mobile.dda69d91.png' 
+2019-01-17 21:03:56.0309|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.8834ms 200 image/png 
+2019-01-17 21:03:56.0457|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-4.a9caa802.png   
+2019-01-17 21:03:56.0457|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/hero-a.2a8153ef.svg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\hero-a.2a8153ef.svg' 
+2019-01-17 21:03:56.0457|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.363ms 200 image/svg+xml 
+2019-01-17 21:03:56.0654|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-5.56318164.png   
+2019-01-17 21:03:56.0654|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-3.b241475a.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-3.b241475a.png' 
+2019-01-17 21:03:56.0807|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-1.ee4128a9.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-1.ee4128a9.png' 
+2019-01-17 21:03:56.0807|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-collab.0cad30a9.png   
+2019-01-17 21:03:56.0807|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-platform.15e77c83.png   
+2019-01-17 21:03:56.0807|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 51.5194ms 200 image/png 
+2019-01-17 21:03:56.0954|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/btn-appstore-black.eebf313c.png   
+2019-01-17 21:03:56.0954|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-4.a9caa802.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-4.a9caa802.png' 
+2019-01-17 21:03:56.1096|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 63.1934ms 200 image/png 
+2019-01-17 21:03:56.1096|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/btn-playstore-black.bcde9868.png   
+2019-01-17 21:03:56.0954|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-sync.6eaaf5e3.png   
+2019-01-17 21:03:56.0807|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 68.0327ms 200 image/png 
+2019-01-17 21:03:56.1096|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/network-3537401_1280.0573fd77.jpg   
+2019-01-17 21:03:56.1249|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/app.98dd12e4.js.map   
+2019-01-17 21:03:56.1249|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-platform.15e77c83.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-platform.15e77c83.png' 
+2019-01-17 21:03:56.1249|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 45.1687ms 200 image/png 
+2019-01-17 21:03:56.1249|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-collab.0cad30a9.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-collab.0cad30a9.png' 
+2019-01-17 21:03:56.1249|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/js/chunk-vendors.fb9cb9db.js.map   
+2019-01-17 21:03:56.1249|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 55.3523ms 200 image/png 
+2019-01-17 21:03:56.1430|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/btn-appstore-black.eebf313c.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\btn-appstore-black.eebf313c.png' 
+2019-01-17 21:03:56.1430|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 47.5697ms 200 image/png 
+2019-01-17 21:03:56.1430|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/updated-layouts-sync.6eaaf5e3.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\updated-layouts-sync.6eaaf5e3.png' 
+2019-01-17 21:03:56.1572|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 57.4451ms 200 image/png 
+2019-01-17 21:03:56.1430|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/btn-playstore-black.bcde9868.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\btn-playstore-black.bcde9868.png' 
+2019-01-17 21:03:56.1748|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-2.7f413dbd.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-2.7f413dbd.png' 
+2019-01-17 21:03:56.1922|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 163.8052ms 200 image/png 
+2019-01-17 21:03:56.1748|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/app.98dd12e4.js.map'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\app.98dd12e4.js.map' 
+2019-01-17 21:03:56.1922|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 70.5815ms 200 text/plain 
+2019-01-17 21:03:56.1748|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/slide-5.56318164.png'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\slide-5.56318164.png' 
+2019-01-17 21:03:56.1922|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 136.2348ms 200 image/png 
+2019-01-17 21:03:56.1922|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 80.3856ms 200 image/png 
+2019-01-17 21:03:56.1922|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/img/network-3537401_1280.0573fd77.jpg'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\img\network-3537401_1280.0573fd77.jpg' 
+2019-01-17 21:03:56.2306|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 113.8186ms 200 image/jpeg 
+2019-01-17 21:03:56.2601|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/chunk-vendors.fb9cb9db.js.map'. Physical path: 'C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\wwwroot\js\chunk-vendors.fb9cb9db.js.map' 
+2019-01-17 21:03:56.2652|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 127.7092ms 200 text/plain 
+2019-01-17 21:04:33.9332|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 POST https://localhost:44377/api/auth/duplication application/json;charset=UTF-8 61 
+2019-01-17 21:04:33.9380|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-17 21:04:33.9380|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-17 21:04:34.1036|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone)' 
+2019-01-17 21:04:34.1359|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CheckDuplication", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone) 
+2019-01-17 21:04:34.5741|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone) with arguments (TrelloClone.Dtos.UsersDuplicateRequestDto) - Validation state: Valid 
+2019-01-17 21:04:35.0269|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-17 21:04:36.8385|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[@__email_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [x].[EMAIL], [x].[NAME], [x].[PASSWORD_HASH], [x].[PASSWORD_SALT]
+FROM [USERS] AS [x]
+WHERE [x].[EMAIL] = @__email_0 
+2019-01-17 21:04:36.8633|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2285.6413ms. 
+2019-01-17 21:04:36.8633|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'null'. 
+2019-01-17 21:04:36.8633|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone) in 2733.457ms 
+2019-01-17 21:04:36.8741|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone)' 
+2019-01-17 21:04:36.8741|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2946.0277ms 204  
+2019-01-17 21:04:40.3465|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 POST https://localhost:44377/api/auth/duplication application/json;charset=UTF-8 62 
+2019-01-17 21:04:40.3465|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-17 21:04:40.3465|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-17 21:04:40.3465|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone)' 
+2019-01-17 21:04:40.3465|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "CheckDuplication", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone) 
+2019-01-17 21:04:40.3595|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone) with arguments (TrelloClone.Dtos.UsersDuplicateRequestDto) - Validation state: Valid 
+2019-01-17 21:04:40.3595|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-17 21:04:40.3595|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__email_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [x].[EMAIL], [x].[NAME], [x].[PASSWORD_HASH], [x].[PASSWORD_SALT]
+FROM [USERS] AS [x]
+WHERE [x].[EMAIL] = @__email_0 
+2019-01-17 21:04:40.4284|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 67.4996ms. 
+2019-01-17 21:04:40.4284|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'. 
+2019-01-17 21:04:40.4284|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone) in 74.102ms 
+2019-01-17 21:04:40.4284|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.CheckDuplication (TrelloClone)' 
+2019-01-17 21:04:40.4284|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 88.164ms 200 text/plain; charset=utf-8 
+2019-01-17 21:05:25.3461|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-adobe.be09cc20.svg   
+2019-01-17 21:05:25.3461|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/logo-adobe.be09cc20.svg was not modified 
+2019-01-17 21:05:25.3590|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.8821ms 304 image/svg+xml 
+2019-01-17 21:05:25.3590|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-kickstarter.4009d27e.svg   
+2019-01-17 21:05:25.3590|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-national-geographic.d53964ff.svg   
+2019-01-17 21:05:25.3590|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-google.57bdf532.svg   
+2019-01-17 21:05:25.3590|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/logo-kickstarter.4009d27e.svg was not modified 
+2019-01-17 21:05:25.3765|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 19.4041ms 304 image/svg+xml 
+2019-01-17 21:05:25.3765|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/logo-google.57bdf532.svg was not modified 
+2019-01-17 21:05:25.3765|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/logo-national-geographic.d53964ff.svg was not modified 
+2019-01-17 21:05:25.3957|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 36.2451ms 304 image/svg+xml 
+2019-01-17 21:05:25.3957|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 31.5115ms 304 image/svg+xml 
+2019-01-17 21:05:25.3765|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/logo-fender.42736054.svg   
+2019-01-17 21:05:25.3957|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/logo-fender.42736054.svg was not modified 
+2019-01-17 21:05:25.4052|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 15.7644ms 304 image/svg+xml 
+2019-01-17 21:05:25.4052|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-board.ec632c01.png   
+2019-01-17 21:05:25.4052|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/hero-a.2a8153ef.svg   
+2019-01-17 21:05:25.4052|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-1.ee4128a9.png   
+2019-01-17 21:05:25.4215|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/slide-1.ee4128a9.png was not modified 
+2019-01-17 21:05:25.4215|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.9949ms 304 image/png 
+2019-01-17 21:05:25.4215|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-2.7f413dbd.png   
+2019-01-17 21:05:25.4215|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/slide-2.7f413dbd.png was not modified 
+2019-01-17 21:05:25.4215|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.9793ms 304 image/png 
+2019-01-17 21:05:25.4215|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/hero-a.2a8153ef.svg was not modified 
+2019-01-17 21:05:25.4052|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-mobile.dda69d91.png   
+2019-01-17 21:05:25.4052|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/updated-layouts-board.ec632c01.png was not modified 
+2019-01-17 21:05:25.4363|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-3.b241475a.png   
+2019-01-17 21:05:25.4363|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/slide-3.b241475a.png was not modified 
+2019-01-17 21:05:25.4363|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/updated-layouts-mobile.dda69d91.png was not modified 
+2019-01-17 21:05:25.4363|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.5108ms 304 image/png 
+2019-01-17 21:05:25.4582|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-5.56318164.png   
+2019-01-17 21:05:25.4363|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.1267ms 304 image/png 
+2019-01-17 21:05:25.4363|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 32.3959ms 304 image/png 
+2019-01-17 21:05:25.4363|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.3891ms 304 image/svg+xml 
+2019-01-17 21:05:25.4582|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/slide-5.56318164.png was not modified 
+2019-01-17 21:05:25.4582|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-collab.0cad30a9.png   
+2019-01-17 21:05:25.4582|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/slide-4.a9caa802.png   
+2019-01-17 21:05:25.4582|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-platform.15e77c83.png   
+2019-01-17 21:05:25.4582|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.5777ms 304 image/png 
+2019-01-17 21:05:25.4582|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/updated-layouts-collab.0cad30a9.png was not modified 
+2019-01-17 21:05:25.4687|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/slide-4.a9caa802.png was not modified 
+2019-01-17 21:05:25.4687|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/updated-layouts-platform.15e77c83.png was not modified 
+2019-01-17 21:05:25.4687|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/img/updated-layouts-sync.6eaaf5e3.png   
+2019-01-17 21:05:25.4687|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.5637ms 304 image/png 
+2019-01-17 21:05:25.4687|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.179ms 304 image/png 
+2019-01-17 21:05:25.4687|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.4212ms 304 image/png 
+2019-01-17 21:05:25.4840|6|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file /img/updated-layouts-sync.6eaaf5e3.png was not modified 
+2019-01-17 21:05:25.4840|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 19.9447ms 304 image/png 

@@ -1,0 +1,15 @@
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Release\netcoreapp2.2\nlog.config
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Release\netcoreapp2.2\TrelloClone.deps.json
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Release\netcoreapp2.2\TrelloClone.runtimeconfig.json
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Release\netcoreapp2.2\TrelloClone.runtimeconfig.dev.json
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Release\netcoreapp2.2\TrelloClone.dll
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Release\netcoreapp2.2\TrelloClone.pdb
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\obj\Release\netcoreapp2.2\TrelloClone.csprojAssemblyReference.cache
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\obj\Release\netcoreapp2.2\TrelloClone.csproj.CoreCompileInputs.cache
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\obj\Release\netcoreapp2.2\TrelloClone.RazorAssemblyInfo.cache
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\obj\Release\netcoreapp2.2\TrelloClone.RazorAssemblyInfo.cs
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\obj\Release\netcoreapp2.2\TrelloClone.AssemblyInfoInputs.cache
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\obj\Release\netcoreapp2.2\TrelloClone.AssemblyInfo.cs
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\obj\Release\netcoreapp2.2\TrelloClone.RazorTargetAssemblyInfo.cache
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\obj\Release\netcoreapp2.2\TrelloClone.dll
+C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\obj\Release\netcoreapp2.2\TrelloClone.pdb

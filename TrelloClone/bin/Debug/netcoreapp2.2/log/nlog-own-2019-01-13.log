@@ -1,0 +1,84 @@
+2019-01-13 06:57:59.2364||DEBUG|TrelloClone.Program|init main |url: |action: 
+2019-01-13 06:58:25.5672|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/login|action: 
+2019-01-13 06:58:30.9770|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/login|action: 
+2019-01-13 06:58:35.4607|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/login|action: 
+2019-01-13 06:58:48.4771|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:58:54.4103|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:14.7036|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:19.4397|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:21.0425|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:22.4559|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:23.6602|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:24.9258|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:25.9257|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:28.3177|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:29.7448|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:31.6504|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 06:59:32.8994|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 07:00:10.9917|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/auth/duplication|action: 
+2019-01-13 07:05:29.2439|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/api/api/auth/login|action: 
+2019-01-13 07:14:12.2728||DEBUG|TrelloClone.Program|init main |url: |action: 
+2019-01-13 07:15:15.4914|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/checkToken|action: 
+2019-01-13 07:15:25.1096|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/checkToken|action: 
+2019-01-13 07:22:06.0223||DEBUG|TrelloClone.Program|init main |url: |action: 
+2019-01-13 07:44:47.2108|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/login|action: 
+2019-01-13 07:45:32.9589|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/duplication|action: 
+2019-01-13 07:45:50.8907|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/duplication|action: 
+2019-01-13 07:46:17.5762|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/login|action: 
+2019-01-13 07:48:35.8513|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/login|action: 
+2019-01-13 07:49:28.4658||DEBUG|TrelloClone.Program|init main |url: |action: 
+2019-01-13 07:50:04.6681|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/login|action: 
+2019-01-13 07:50:26.8019|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/values|action: 
+2019-01-13 07:50:26.8183|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: A CORS policy named '' could not be found.
+   at Microsoft.AspNetCore.Mvc.Cors.CorsAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at TrelloClone.Infra.JWTRefreshMiddleware.Invoke(HttpContext context) in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\Infra\JWTRefreshMiddleware.cs:line 41
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.InvokeCore(HttpContext context)
+   at TrelloClone.Infra.JWTInHeaderMiddleware.Invoke(HttpContext context) in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\Infra\JWTInHeaderMiddleware.cs:line 32
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/values|action: GetList
+2019-01-13 07:50:30.5469|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/values|action: 
+2019-01-13 07:50:30.5532|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: A CORS policy named '' could not be found.
+   at Microsoft.AspNetCore.Mvc.Cors.CorsAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at TrelloClone.Infra.JWTRefreshMiddleware.Invoke(HttpContext context) in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\Infra\JWTRefreshMiddleware.cs:line 41
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.InvokeCore(HttpContext context)
+   at TrelloClone.Infra.JWTInHeaderMiddleware.Invoke(HttpContext context) in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\Infra\JWTInHeaderMiddleware.cs:line 32
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/values|action: GetList
+2019-01-13 07:52:09.5839|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/login|action: 
+2019-01-13 07:52:12.1365|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/values|action: 
+2019-01-13 07:52:12.1447|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: A CORS policy named '' could not be found.
+   at Microsoft.AspNetCore.Mvc.Cors.CorsAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at TrelloClone.Infra.JWTRefreshMiddleware.Invoke(HttpContext context) in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\Infra\JWTRefreshMiddleware.cs:line 41
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.InvokeCore(HttpContext context)
+   at TrelloClone.Infra.JWTInHeaderMiddleware.Invoke(HttpContext context) in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\Infra\JWTInHeaderMiddleware.cs:line 32
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)|url: https://localhost/api/values|action: GetList
+2019-01-13 07:53:43.3473|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/login|action: 
+2019-01-13 07:54:02.3869||DEBUG|TrelloClone.Program|init main |url: |action: 
+2019-01-13 07:55:15.1981||DEBUG|TrelloClone.Program|init main |url: |action: 
+2019-01-13 07:55:27.7932|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/login|action: 
+2019-01-13 07:55:41.7281|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. |url: https://localhost/api/auth/login|action: 

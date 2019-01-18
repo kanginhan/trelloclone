@@ -1,0 +1,254 @@
+2019-01-07 12:55:06.8078 Info Message Template Auto Format enabled
+2019-01-07 12:55:06.8289 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-07 12:55:06.9418 Info Adding target File Target[allfile]
+2019-01-07 12:55:06.9418 Info Adding target File Target[ownFile-web]
+2019-01-07 12:55:06.9667 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\APIWebServer Project\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-07 12:55:06.9970 Info Found 45 configuration items
+2019-01-07 12:55:21.9855 Info Message Template Auto Format enabled
+2019-01-07 12:55:21.9933 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-07 12:55:22.0465 Info Adding target File Target[allfile]
+2019-01-07 12:55:22.0465 Info Adding target File Target[ownFile-web]
+2019-01-07 12:55:22.0563 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\APIWebServer Project\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-07 12:55:22.0728 Info Found 45 configuration items
+2019-01-07 12:55:42.9040 Info Logger closing down...
+2019-01-07 12:55:42.9040 Info Closing old configuration.
+2019-01-07 12:55:42.9290 Info Logger has been closed down.
+2019-01-07 12:55:42.9290 Info Shutting down logging...
+2019-01-07 12:55:42.9290 Info Logger has been shut down.
+2019-01-10 08:15:14.4366 Info Message Template Auto Format enabled
+2019-01-10 08:15:14.4529 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 08:15:14.7362 Info Adding target File Target[allfile]
+2019-01-10 08:15:14.7849 Info Adding target File Target[ownFile-web]
+2019-01-10 08:15:14.7849 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 08:15:14.8302 Info Found 45 configuration items
+2019-01-10 08:22:43.5280 Info Message Template Auto Format enabled
+2019-01-10 08:22:43.5444 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 08:22:43.6756 Info Adding target File Target[allfile]
+2019-01-10 08:22:43.6756 Info Adding target File Target[ownFile-web]
+2019-01-10 08:22:43.6934 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 08:22:43.7145 Info Found 45 configuration items
+2019-01-10 08:22:57.1099 Info Message Template Auto Format enabled
+2019-01-10 08:22:57.1271 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 08:22:57.2557 Info Adding target File Target[allfile]
+2019-01-10 08:22:57.2557 Info Adding target File Target[ownFile-web]
+2019-01-10 08:22:57.2765 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 08:22:57.2967 Info Found 45 configuration items
+2019-01-10 08:28:59.2036 Info Message Template Auto Format enabled
+2019-01-10 08:28:59.2138 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 08:28:59.2622 Info Adding target File Target[allfile]
+2019-01-10 08:28:59.2622 Info Adding target File Target[ownFile-web]
+2019-01-10 08:28:59.2734 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 08:28:59.2884 Info Found 45 configuration items
+2019-01-10 08:29:50.8324 Info Message Template Auto Format enabled
+2019-01-10 08:29:50.8324 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 08:29:50.9029 Info Adding target File Target[allfile]
+2019-01-10 08:29:50.9029 Info Adding target File Target[ownFile-web]
+2019-01-10 08:29:50.9128 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 08:29:50.9281 Info Found 45 configuration items
+2019-01-10 08:29:57.2673 Info Logger closing down...
+2019-01-10 08:29:57.2708 Info Closing old configuration.
+2019-01-10 08:29:57.2708 Info Logger has been closed down.
+2019-01-10 08:29:57.2708 Info Shutting down logging...
+2019-01-10 08:29:57.2708 Info Logger has been shut down.
+2019-01-10 08:30:05.0200 Info Message Template Auto Format enabled
+2019-01-10 08:30:05.0200 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 08:30:05.1439 Info Adding target File Target[allfile]
+2019-01-10 08:30:05.1654 Info Adding target File Target[ownFile-web]
+2019-01-10 08:30:05.1831 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 08:30:05.2223 Info Found 45 configuration items
+2019-01-10 08:30:18.1043 Info Logger closing down...
+2019-01-10 08:30:18.1043 Info Closing old configuration.
+2019-01-10 08:30:18.1177 Info Logger has been closed down.
+2019-01-10 08:30:18.1177 Info Shutting down logging...
+2019-01-10 08:30:18.1177 Info Logger has been shut down.
+2019-01-10 08:30:46.8973 Info Message Template Auto Format enabled
+2019-01-10 08:30:46.9093 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 08:30:47.0597 Info Adding target File Target[allfile]
+2019-01-10 08:30:47.0747 Info Adding target File Target[ownFile-web]
+2019-01-10 08:30:47.0909 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 08:30:47.1123 Info Found 45 configuration items
+2019-01-10 12:38:04.8878 Info Message Template Auto Format enabled
+2019-01-10 12:38:04.9017 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 12:38:05.0726 Info Adding target File Target[allfile]
+2019-01-10 12:38:05.1089 Info Adding target File Target[ownFile-web]
+2019-01-10 12:38:05.1202 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 12:38:05.1398 Info Found 45 configuration items
+2019-01-10 12:43:59.9906 Info Message Template Auto Format enabled
+2019-01-10 12:44:00.0394 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 12:44:00.1994 Info Adding target File Target[allfile]
+2019-01-10 12:44:00.2106 Info Adding target File Target[ownFile-web]
+2019-01-10 12:44:00.2214 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 12:44:00.2472 Info Found 45 configuration items
+2019-01-10 12:46:07.6650 Info Shutting down logging...
+2019-01-10 12:46:07.6920 Info Logger has been shut down.
+2019-01-10 21:09:14.8747 Info Message Template Auto Format enabled
+2019-01-10 21:09:14.8916 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 21:09:15.0930 Info Adding target File Target[allfile]
+2019-01-10 21:09:15.1435 Info Adding target File Target[ownFile-web]
+2019-01-10 21:09:15.1635 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 21:09:15.1998 Info Found 45 configuration items
+2019-01-10 22:05:09.0847 Info Message Template Auto Format enabled
+2019-01-10 22:05:09.1013 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 22:05:09.2190 Info Adding target File Target[allfile]
+2019-01-10 22:05:09.2358 Info Adding target File Target[ownFile-web]
+2019-01-10 22:05:09.2494 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 22:05:09.2926 Info Found 45 configuration items
+2019-01-10 22:31:58.4225 Info Message Template Auto Format enabled
+2019-01-10 22:31:58.4459 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 22:31:58.7942 Info Adding target File Target[allfile]
+2019-01-10 22:31:58.8107 Info Adding target File Target[ownFile-web]
+2019-01-10 22:31:58.8351 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 22:31:58.8662 Info Found 45 configuration items
+2019-01-10 23:09:05.8509 Info Message Template Auto Format enabled
+2019-01-10 23:09:05.8637 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 23:09:06.0689 Info Adding target File Target[allfile]
+2019-01-10 23:09:06.1289 Info Adding target File Target[ownFile-web]
+2019-01-10 23:09:06.1502 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 23:09:06.1819 Info Found 45 configuration items
+2019-01-10 23:23:26.0651 Info Message Template Auto Format enabled
+2019-01-10 23:23:26.0651 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 23:23:26.2480 Info Adding target File Target[allfile]
+2019-01-10 23:23:26.2832 Info Adding target File Target[ownFile-web]
+2019-01-10 23:23:26.2949 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 23:23:26.3176 Info Found 45 configuration items
+2019-01-10 23:33:42.3859 Info Message Template Auto Format enabled
+2019-01-10 23:33:42.4135 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-10 23:33:42.7512 Info Adding target File Target[allfile]
+2019-01-10 23:33:42.8310 Info Adding target File Target[ownFile-web]
+2019-01-10 23:33:42.8939 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-10 23:33:42.9762 Info Found 45 configuration items
+2019-01-11 00:25:23.8068 Info Message Template Auto Format enabled
+2019-01-11 00:25:23.8280 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 00:25:24.0127 Info Adding target File Target[allfile]
+2019-01-11 00:25:24.0329 Info Adding target File Target[ownFile-web]
+2019-01-11 00:25:24.0462 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 00:25:24.0763 Info Found 45 configuration items
+2019-01-11 00:27:04.6173 Info Message Template Auto Format enabled
+2019-01-11 00:27:04.6314 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 00:27:04.7765 Info Adding target File Target[allfile]
+2019-01-11 00:27:04.7877 Info Adding target File Target[ownFile-web]
+2019-01-11 00:27:04.8046 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 00:27:04.8379 Info Found 45 configuration items
+2019-01-11 00:28:55.0319 Info Message Template Auto Format enabled
+2019-01-11 00:28:55.0445 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 00:28:55.1584 Info Adding target File Target[allfile]
+2019-01-11 00:28:55.2599 Info Adding target File Target[ownFile-web]
+2019-01-11 00:28:55.2723 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 00:28:55.3049 Info Found 45 configuration items
+2019-01-11 00:31:32.6019 Info Message Template Auto Format enabled
+2019-01-11 00:31:32.6189 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 00:31:32.7713 Info Adding target File Target[allfile]
+2019-01-11 00:31:32.8472 Info Adding target File Target[ownFile-web]
+2019-01-11 00:31:32.8665 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 00:31:32.8967 Info Found 45 configuration items
+2019-01-11 01:33:58.1816 Info Message Template Auto Format enabled
+2019-01-11 01:33:58.2036 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 01:33:58.3999 Info Adding target File Target[allfile]
+2019-01-11 01:33:58.4418 Info Adding target File Target[ownFile-web]
+2019-01-11 01:33:58.4570 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 01:33:58.5061 Info Found 45 configuration items
+2019-01-11 01:39:34.8707 Info Logger closing down...
+2019-01-11 01:39:34.8707 Info Closing old configuration.
+2019-01-11 01:39:34.8829 Info Logger has been closed down.
+2019-01-11 01:39:34.8829 Info Shutting down logging...
+2019-01-11 01:39:34.8829 Info Logger has been shut down.
+2019-01-11 01:40:09.0456 Info Message Template Auto Format enabled
+2019-01-11 01:40:09.0602 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 01:40:09.2367 Info Adding target File Target[allfile]
+2019-01-11 01:40:09.2503 Info Adding target File Target[ownFile-web]
+2019-01-11 01:40:09.2639 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 01:40:09.2966 Info Found 45 configuration items
+2019-01-11 01:40:46.9572 Info Message Template Auto Format enabled
+2019-01-11 01:40:46.9572 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 01:40:47.0354 Info Adding target File Target[allfile]
+2019-01-11 01:40:47.0354 Info Adding target File Target[ownFile-web]
+2019-01-11 01:40:47.0527 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 01:40:47.0769 Info Found 45 configuration items
+2019-01-11 01:41:01.9676 Info Logger closing down...
+2019-01-11 01:41:01.9676 Info Closing old configuration.
+2019-01-11 01:41:01.9802 Info Logger has been closed down.
+2019-01-11 01:41:01.9802 Info Shutting down logging...
+2019-01-11 01:41:01.9802 Info Logger has been shut down.
+2019-01-11 01:41:08.6036 Info Message Template Auto Format enabled
+2019-01-11 01:41:08.6267 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 01:41:08.8649 Info Adding target File Target[allfile]
+2019-01-11 01:41:08.8867 Info Adding target File Target[ownFile-web]
+2019-01-11 01:41:08.9068 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 01:41:08.9490 Info Found 45 configuration items
+2019-01-11 01:46:58.7798 Info Message Template Auto Format enabled
+2019-01-11 01:46:58.7942 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 01:46:58.9273 Info Adding target File Target[allfile]
+2019-01-11 01:46:58.9273 Info Adding target File Target[ownFile-web]
+2019-01-11 01:46:58.9495 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 01:46:58.9711 Info Found 45 configuration items
+2019-01-11 01:54:12.3663 Info Message Template Auto Format enabled
+2019-01-11 01:54:12.4035 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 01:54:12.6977 Info Adding target File Target[allfile]
+2019-01-11 01:54:12.7251 Info Adding target File Target[ownFile-web]
+2019-01-11 01:54:12.7403 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 01:54:12.7808 Info Found 45 configuration items
+2019-01-11 02:04:07.6178 Info Message Template Auto Format enabled
+2019-01-11 02:04:07.6333 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 02:04:07.7348 Info Adding target File Target[allfile]
+2019-01-11 02:04:07.7462 Info Adding target File Target[ownFile-web]
+2019-01-11 02:04:07.7541 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 02:04:07.7739 Info Found 45 configuration items
+2019-01-11 02:17:54.8035 Info Message Template Auto Format enabled
+2019-01-11 02:17:54.8165 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 02:17:54.9610 Info Adding target File Target[allfile]
+2019-01-11 02:17:54.9729 Info Adding target File Target[ownFile-web]
+2019-01-11 02:17:54.9873 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 02:17:55.0243 Info Found 45 configuration items
+2019-01-11 02:21:08.5754 Info Message Template Auto Format enabled
+2019-01-11 02:21:08.5864 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 02:21:08.6525 Info Adding target File Target[allfile]
+2019-01-11 02:21:08.6525 Info Adding target File Target[ownFile-web]
+2019-01-11 02:21:08.6686 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 02:21:08.6894 Info Found 45 configuration items
+2019-01-11 02:30:48.0973 Info Message Template Auto Format enabled
+2019-01-11 02:30:48.0973 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 02:30:48.1779 Info Adding target File Target[allfile]
+2019-01-11 02:30:48.1779 Info Adding target File Target[ownFile-web]
+2019-01-11 02:30:48.1928 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 02:30:48.2125 Info Found 45 configuration items
+2019-01-11 02:34:30.6194 Info Message Template Auto Format enabled
+2019-01-11 02:34:30.6194 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-11 02:34:30.6806 Info Adding target File Target[allfile]
+2019-01-11 02:34:30.6806 Info Adding target File Target[ownFile-web]
+2019-01-11 02:34:30.6937 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\nlog.config...
+2019-01-11 02:34:30.7131 Info Found 45 configuration items
+2019-01-11 02:39:15.5558 Info Logger closing down...
+2019-01-11 02:39:15.5558 Info Closing old configuration.
+2019-01-11 02:39:15.5670 Info Logger has been closed down.
+2019-01-11 02:39:15.5670 Info Shutting down logging...
+2019-01-11 02:39:15.5670 Info Logger has been shut down.
+2019-01-18 12:45:11.1509 Info Message Template Auto Format enabled
+2019-01-18 12:45:11.1620 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-18 12:45:11.2160 Info Adding target File Target[allfile]
+2019-01-18 12:45:11.2188 Info Adding target File Target[ownFile-web]
+2019-01-18 12:45:11.2188 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\NLog.config...
+2019-01-18 12:45:11.2413 Info Found 45 configuration items
+2019-01-18 12:45:11.2579 Info Configuration initialized.
+2019-01-18 12:45:11.2579 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.10.8381. Product version: 4.5.10.
+2019-01-18 12:45:11.3213 Info Shutting down logging...
+2019-01-18 12:45:11.3381 Info Logger has been shut down.
+2019-01-18 12:46:36.3887 Info Message Template Auto Format enabled
+2019-01-18 12:46:36.3973 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-18 12:46:36.4404 Info Adding target File Target[allfile]
+2019-01-18 12:46:36.4404 Info Adding target File Target[ownFile-web]
+2019-01-18 12:46:36.4404 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\NLog.config...
+2019-01-18 12:46:36.4639 Info Found 45 configuration items
+2019-01-18 12:46:36.4813 Info Configuration initialized.
+2019-01-18 12:46:36.4867 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.10.8381. Product version: 4.5.10.
+2019-01-18 12:46:36.5343 Info Shutting down logging...
+2019-01-18 12:46:36.5587 Info Logger has been shut down.
+2019-01-18 12:54:11.4509 Info Message Template Auto Format enabled
+2019-01-18 12:54:11.4610 Info Loading assembly: NLog.Web.AspNetCore
+2019-01-18 12:54:11.5021 Info Adding target File Target[allfile]
+2019-01-18 12:54:11.5021 Info Adding target File Target[ownFile-web]
+2019-01-18 12:54:11.5021 Info Configured from an XML element in C:\Users\hunt2\Desktop\Trello프로젝트\project files\TrelloClone\bin\Debug\netcoreapp2.2\NLog.config...
+2019-01-18 12:54:11.5262 Info Found 45 configuration items
+2019-01-18 12:54:11.5431 Info Configuration initialized.
+2019-01-18 12:54:11.5472 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.5.10.8381. Product version: 4.5.10.
+2019-01-18 12:54:11.5995 Info Shutting down logging...
+2019-01-18 12:54:11.6171 Info Logger has been shut down.

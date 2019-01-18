@@ -1,0 +1,137 @@
+2019-01-07 08:24:10.2800||DEBUG|TrelloClone.Program|init main 
+2019-01-07 08:24:15.0263||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-07 08:24:15.5382|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/api/values   
+2019-01-07 08:24:15.5819|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.Get (TrelloClone)' 
+2019-01-07 08:24:15.6021|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.Get (TrelloClone) 
+2019-01-07 08:24:15.6948|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.ValuesController.Get (TrelloClone) - Validation state: Valid 
+2019-01-07 08:24:15.6948|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.ValuesController.Get (TrelloClone), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.4954ms. 
+2019-01-07 08:24:15.7072|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-01-07 08:24:15.7823|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.Get (TrelloClone) in 176.6713ms 
+2019-01-07 08:24:15.7853|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.Get (TrelloClone)' 
+2019-01-07 08:24:15.7853|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 252.5361ms 200 application/json; charset=utf-8 
+2019-01-07 08:24:16.0111|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/favicon.ico   
+2019-01-07 08:24:16.0237|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.6141ms 404  
+2019-01-07 12:05:15.0732||DEBUG|TrelloClone.Program|init main 
+2019-01-07 12:05:20.2042||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-07 12:05:20.9190|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/api/values   
+2019-01-07 12:05:21.0238|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.Get (TrelloClone)' 
+2019-01-07 12:05:21.0428|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.Get (TrelloClone) 
+2019-01-07 12:05:21.1237|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.ValuesController.Get (TrelloClone) - Validation state: Valid 
+2019-01-07 12:05:21.1295|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.ValuesController.Get (TrelloClone), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.3409ms. 
+2019-01-07 12:05:21.1295|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-01-07 12:05:21.2238|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.Get (TrelloClone) in 176.7274ms 
+2019-01-07 12:05:21.2238|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.Get (TrelloClone)' 
+2019-01-07 12:05:21.2238|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 314.7397ms 200 application/json; charset=utf-8 
+2019-01-07 12:05:21.3937|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/favicon.ico   
+2019-01-07 12:05:21.4101|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.3896ms 404  
+2019-01-07 12:05:33.6131|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/swagger   
+2019-01-07 12:05:33.6131|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.187ms 301  
+2019-01-07 12:05:33.6131|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/swagger/index.html   
+2019-01-07 12:05:33.6857|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 60.6412ms 200 text/html 
+2019-01-07 12:05:33.7046|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/swagger/swagger-ui.css   
+2019-01-07 12:05:33.7091|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/swagger/swagger-ui-bundle.js   
+2019-01-07 12:05:33.7091|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/swagger/swagger-ui-standalone-preset.js   
+2019-01-07 12:05:33.7542|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2019-01-07 12:05:33.7542|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2019-01-07 12:05:33.7542|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 50.3853ms 200 application/javascript 
+2019-01-07 12:05:33.7542|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 57.2659ms 200 text/css 
+2019-01-07 12:05:33.7542|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2019-01-07 12:05:33.7717|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 62.5622ms 200 application/javascript 
+2019-01-07 12:05:34.4496|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/swagger/v1/swagger.json   
+2019-01-07 12:05:34.4736|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/swagger/favicon-32x32.png   
+2019-01-07 12:05:34.4736|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2019-01-07 12:05:34.4736|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.2252ms 200 image/png 
+2019-01-07 12:05:34.4988|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/swagger/favicon-16x16.png   
+2019-01-07 12:05:34.4988|2|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A' 
+2019-01-07 12:05:34.5050|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.181ms 200 image/png 
+2019-01-07 12:05:34.6442|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 194.5881ms 200 application/json;charset=utf-8 
+2019-01-07 12:37:29.9932||DEBUG|TrelloClone.Program|init main 
+2019-01-07 12:37:34.4563||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-07 12:37:34.9171|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/api/values   
+2019-01-07 12:37:35.1722|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:37:35.1825|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-07 12:37:35.2698|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.ValuesController.GetList (TrelloClone) - Validation state: Valid 
+2019-01-07 12:37:35.2698|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.ValuesController.GetList (TrelloClone), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.3462ms. 
+2019-01-07 12:37:35.2698|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-01-07 12:37:35.3540|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 167.8644ms 
+2019-01-07 12:37:35.3540|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:37:35.3670|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 450.2371ms 200 application/json; charset=utf-8 
+2019-01-07 12:37:35.6196|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/favicon.ico   
+2019-01-07 12:37:35.6196|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.9969ms 404  
+2019-01-07 12:47:48.2331||DEBUG|TrelloClone.Program|init main 
+2019-01-07 12:47:50.5187||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-07 12:47:51.0530|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44377/api/values   
+2019-01-07 12:47:51.3371|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:47:51.4286|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-07 12:47:51.4473|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-07 12:47:51.4473|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-07 12:47:51.4611|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-07 12:47:51.4733|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-07 12:47:51.4959|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 61.6955ms 
+2019-01-07 12:47:51.4959|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:47:51.5250|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 470.2668ms 401  
+2019-01-07 12:48:36.7212|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:44377/api/values   
+2019-01-07 12:48:36.8141|1|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden]'.
+Exceptions caught:
+ '[PII is hidden]'.
+token: '[PII is hidden]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2019-01-07 12:48:36.8273|7|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden]'.
+Exceptions caught:
+ '[PII is hidden]'.
+token: '[PII is hidden]'. 
+2019-01-07 12:48:36.8273|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:48:36.8273|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-07 12:48:36.8331|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-07 12:48:36.8331|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-07 12:48:36.8331|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-07 12:48:36.8331|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-07 12:48:36.8331|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 7.5879ms 
+2019-01-07 12:48:36.8331|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:48:36.8331|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 123.5673ms 401  
+2019-01-07 12:50:36.3766|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44377/api/auth/token  0 
+2019-01-07 12:50:36.3793|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.GetToken (TrelloClone)' 
+2019-01-07 12:50:36.3975|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetToken", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.GetToken (TrelloClone) 
+2019-01-07 12:50:36.5157|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.GetToken (TrelloClone) - Validation state: Valid 
+2019-01-07 12:50:43.6049|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.GetToken (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7084.6663ms. 
+2019-01-07 12:50:43.6049|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'. 
+2019-01-07 12:50:43.6186|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.GetToken (TrelloClone) in 7195.1361ms 
+2019-01-07 12:50:43.6186|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.GetToken (TrelloClone)' 
+2019-01-07 12:50:43.6321|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7255.5439ms 200 text/plain; charset=utf-8 
+2019-01-07 12:50:58.3456|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:44377/api/values   
+2019-01-07 12:50:58.3536|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-01-07 12:50:58.3536|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:50:58.3536|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-07 12:50:58.3536|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2019-01-07 12:50:58.3536|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.ValuesController.GetList (TrelloClone) - Validation state: Valid 
+2019-01-07 12:50:58.3650|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.ValuesController.GetList (TrelloClone), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.41ms. 
+2019-01-07 12:50:58.3650|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-01-07 12:50:58.3650|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 13.2435ms 
+2019-01-07 12:50:58.3650|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:50:58.3650|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 30.1786ms 200 application/json; charset=utf-8 
+2019-01-07 12:55:07.0503||DEBUG|TrelloClone.Program|init main 
+2019-01-07 12:55:08.8478||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-07 12:55:13.2239|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-07 12:55:13.3802|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:55:13.3952|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-07 12:55:13.4123|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-07 12:55:13.4123|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-07 12:55:13.4123|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-07 12:55:13.4272|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-07 12:55:13.4272|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 30.0027ms 
+2019-01-07 12:55:13.4272|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:55:13.4430|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 219.6197ms 401  
+2019-01-07 12:55:22.1025||DEBUG|TrelloClone.Program|init main 
+2019-01-07 12:55:22.5759||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-07 12:55:26.4042|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-07 12:55:26.5075|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:55:26.5201|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-07 12:55:26.5385|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-07 12:55:26.5385|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-07 12:55:26.5385|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-07 12:55:26.5574|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-07 12:55:26.5574|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 37.3209ms 
+2019-01-07 12:55:26.5574|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-07 12:55:26.5747|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 170.5291ms 401  

@@ -1,0 +1,664 @@
+2019-01-10 08:15:14.9626||DEBUG|TrelloClone.Program|init main 
+2019-01-10 08:15:23.3247||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 08:15:31.6455|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 08:15:32.1714|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 08:15:32.2851|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 08:15:32.3187|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 08:15:32.3187|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 08:15:32.3339|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 08:15:32.3467|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 08:15:32.3467|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 49.2841ms 
+2019-01-10 08:15:32.3467|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 08:15:32.3696|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 724.5351ms 401  
+2019-01-10 08:16:41.0826|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register  0 
+2019-01-10 08:16:41.1825|1|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2019-01-10 08:16:41.2236|7|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'. 
+2019-01-10 08:16:41.2236|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:16:41.2236|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 08:16:41.4881|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-01-10 08:16:41.5148|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 277.7621ms 
+2019-01-10 08:16:41.5148|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:16:41.5196|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 436.9498ms 415 application/problem+json; charset=utf-8 
+2019-01-10 08:17:20.6110|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register  0 
+2019-01-10 08:17:20.6235|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:17:20.6290|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 08:17:20.6290|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-01-10 08:17:20.6290|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 4.2465ms 
+2019-01-10 08:17:20.6290|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:17:20.6290|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.4339ms 415 application/problem+json; charset=utf-8 
+2019-01-10 08:17:59.9121|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register application/json 0 
+2019-01-10 08:17:59.9121|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:17:59.9264|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 08:17:59.9264|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+2019-01-10 08:17:59.9425|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 15.172ms 
+2019-01-10 08:17:59.9425|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:17:59.9425|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.2222ms 400 application/problem+json; charset=utf-8 
+2019-01-10 08:18:22.7173|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register application/json 0 
+2019-01-10 08:18:22.7173|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:18:22.7232|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 08:18:22.7232|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+2019-01-10 08:18:22.7232|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 6.3305ms 
+2019-01-10 08:18:22.7387|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:18:22.7387|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.772ms 400 application/problem+json; charset=utf-8 
+2019-01-10 08:18:25.5796|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register application/json 0 
+2019-01-10 08:18:25.5811|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:18:25.5811|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 08:18:25.5811|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+2019-01-10 08:18:25.5811|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 1.7197ms 
+2019-01-10 08:18:25.5811|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:18:25.5811|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.6891ms 400 application/problem+json; charset=utf-8 
+2019-01-10 08:19:22.7356|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register application/json 75 
+2019-01-10 08:19:22.7367|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:19:22.7367|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 08:19:22.7808|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Register (TrelloClone) with arguments (TrelloClone.Dtos.UsersRegisterRequestDto) - Validation state: Valid 
+2019-01-10 08:19:36.1113|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 08:19:38.3766|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (36ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [USERS] AS [x]
+        WHERE [x].[EMAIL] = @__user_EMAIL_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END 
+2019-01-10 08:20:20.3939|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 57651.1024ms 
+2019-01-10 08:20:20.3939|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:20:20.3939|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+=======================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+UsersRegisterRequestDto -> USERS (Destination member list)
+TrelloClone.Dtos.UsersRegisterRequestDto -> TrelloClone.Entities.USERS (Destination member list)
+
+Unmapped properties:
+PASSWORD_HASH
+PASSWORD_SALT
+
+   at AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps) in C:\projects\automapper\src\AutoMapper\ConfigurationValidator.cs:line 48
+   at lambda_method(Closure , UsersRegisterRequestDto , USERS , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source) in C:\projects\automapper\src\AutoMapper\Mapper.cs:line 211
+   at TrelloClone.Data.UsersRepository.CreateUser(UsersRegisterRequestDto user) in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\Data\UsersRepository.cs:line 31
+   at TrelloClone.Controllers.AuthController.Register(UsersRegisterRequestDto user) in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\Controllers\AuthController.cs:line 51
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-01-10 08:20:20.4850|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 57749.4383ms 500 text/html; charset=utf-8 
+2019-01-10 08:22:43.9780||DEBUG|TrelloClone.Program|init main 
+2019-01-10 08:22:45.6841||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 08:22:47.6489|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 08:22:47.7833|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 08:22:47.7945|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 08:22:47.8108|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 08:22:47.8108|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 08:22:47.8203|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 08:22:47.8203|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 08:22:47.8306|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 33.2143ms 
+2019-01-10 08:22:47.8306|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 08:22:47.8306|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 196.0936ms 401  
+2019-01-10 08:22:57.3497||DEBUG|TrelloClone.Program|init main 
+2019-01-10 08:22:58.8139||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 08:23:00.5276|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 08:23:00.7109|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 08:23:00.7277|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 08:23:00.7439|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 08:23:00.7439|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 08:23:00.7564|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 08:23:00.7564|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 08:23:00.7721|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 40.6425ms 
+2019-01-10 08:23:00.7721|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 08:23:00.7872|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 259.5597ms 401  
+2019-01-10 08:23:09.1715|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register application/json 75 
+2019-01-10 08:23:09.1771|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:23:09.1771|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 08:23:09.6116|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Register (TrelloClone) with arguments (TrelloClone.Dtos.UsersRegisterRequestDto) - Validation state: Valid 
+2019-01-10 08:23:20.8934|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 08:23:21.2650|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [USERS] AS [x]
+        WHERE [x].[EMAIL] = @__user_EMAIL_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END 
+2019-01-10 08:23:43.3427|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (5ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [USERS] ([EMAIL], [NAME], [PASSWORD_HASH], [PASSWORD_SALT])
+VALUES (@p0, @p1, @p2, @p3); System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+ClientConnectionId:86368ffa-607d-4b10-b833-68a2dd87d4ea
+Error Number:8152,State:11,Class:16
+2019-01-10 08:23:43.3794|10000|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'TrelloClone.Data.DataContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2019-01-10 08:24:24.9460|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 75757.284ms 
+2019-01-10 08:24:24.9460|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:24:24.9460|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at TrelloClone.Data.UsersRepository.CreateUser(UsersRegisterRequestDto user) in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\Data\UsersRepository.cs:line 38
+   at TrelloClone.Controllers.AuthController.Register(UsersRegisterRequestDto user) in C:\Users\hunt2\Desktop\Trello프로젝트\api-server\TrelloClone\Controllers\AuthController.cs:line 51
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-01-10 08:24:25.0050|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 75833.4327ms 500 text/html; charset=utf-8 
+2019-01-10 08:27:43.9989|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register application/json 75 
+2019-01-10 08:27:44.0086|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:27:44.0086|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 08:27:44.0086|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Register (TrelloClone) with arguments (TrelloClone.Dtos.UsersRegisterRequestDto) - Validation state: Valid 
+2019-01-10 08:27:47.0179|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 08:27:47.0424|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [USERS] AS [x]
+        WHERE [x].[EMAIL] = @__user_EMAIL_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END 
+2019-01-10 08:27:56.1732|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [USERS] ([EMAIL], [NAME], [PASSWORD_HASH], [PASSWORD_SALT])
+VALUES (@p0, @p1, @p2, @p3); 
+2019-01-10 08:28:04.2615|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Register (TrelloClone), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 20241.0892ms. 
+2019-01-10 08:28:04.2705|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-01-10 08:28:04.2882|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 20273.8558ms 
+2019-01-10 08:28:04.2882|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:28:04.2882|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20291.2909ms 500 application/problem+json; charset=utf-8 
+2019-01-10 08:28:59.3192||DEBUG|TrelloClone.Program|init main 
+2019-01-10 08:28:59.8484||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 08:29:50.9587||DEBUG|TrelloClone.Program|init main 
+2019-01-10 08:29:51.5057||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 08:30:05.3145||DEBUG|TrelloClone.Program|init main 
+2019-01-10 08:30:07.0996||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 08:30:47.2389||DEBUG|TrelloClone.Program|init main 
+2019-01-10 08:30:49.0072||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 08:30:52.4242|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register application/json 75 
+2019-01-10 08:30:52.5395|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:30:52.5616|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 08:30:53.0244|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Register (TrelloClone) with arguments (TrelloClone.Dtos.UsersRegisterRequestDto) - Validation state: Valid 
+2019-01-10 08:30:55.7273|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 08:30:56.0984|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [USERS] AS [x]
+        WHERE [x].[EMAIL] = @__user_EMAIL_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END 
+2019-01-10 08:30:59.1963|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [USERS] ([EMAIL], [NAME], [PASSWORD_HASH], [PASSWORD_SALT])
+VALUES (@p0, @p1, @p2, @p3); 
+2019-01-10 08:31:06.9961|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Register (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkResult in 13964.7739ms. 
+2019-01-10 08:31:07.0106|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2019-01-10 08:31:07.0106|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 14450.1066ms 
+2019-01-10 08:31:07.0196|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 08:31:07.0196|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14608.1967ms 200  
+2019-01-10 12:38:05.2250||DEBUG|TrelloClone.Program|init main 
+2019-01-10 12:38:11.1473||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 12:40:36.8136|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 12:40:37.1397|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 12:40:37.1556|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 12:40:37.1735|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 12:40:37.1755|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 12:40:37.1755|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 12:40:37.1983|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 12:40:37.2064|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 43.6285ms 
+2019-01-10 12:40:37.2064|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 12:40:37.2064|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 404.6804ms 401  
+2019-01-10 12:40:59.4266|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register application/json 75 
+2019-01-10 12:40:59.4266|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 12:40:59.4852|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 12:41:00.0164|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Register (TrelloClone) with arguments (TrelloClone.Dtos.UsersRegisterRequestDto) - Validation state: Valid 
+2019-01-10 12:41:12.2796|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 12:41:14.1549|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (67ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [USERS] AS [x]
+        WHERE [x].[EMAIL] = @__user_EMAIL_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END 
+2019-01-10 12:41:21.9352|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Register (TrelloClone), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 21905.9222ms. 
+2019-01-10 12:41:21.9634|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-01-10 12:41:22.0237|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 22537.1786ms 
+2019-01-10 12:41:22.0237|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 12:41:22.0517|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22624.8818ms 500 application/problem+json; charset=utf-8 
+2019-01-10 12:43:06.4786|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/login application/json 55 
+2019-01-10 12:43:06.4886|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 12:43:06.4886|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Login (TrelloClone) 
+2019-01-10 12:43:06.5192|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+2019-01-10 12:43:06.5192|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Login (TrelloClone) in 24.3044ms 
+2019-01-10 12:43:06.5192|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 12:43:06.5192|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 50.0553ms 400 application/problem+json; charset=utf-8 
+2019-01-10 12:44:00.3698||DEBUG|TrelloClone.Program|init main 
+2019-01-10 12:44:01.8656||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 12:44:21.1440|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/login application/json 55 
+2019-01-10 12:44:21.2644|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 12:44:21.2982|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Login (TrelloClone) 
+2019-01-10 12:44:21.7787|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Login (TrelloClone) with arguments (TrelloClone.Dtos.UsersLoginRequestDto) - Validation state: Valid 
+2019-01-10 12:44:30.9843|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 12:44:31.3447|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [x].[EMAIL], [x].[NAME], [x].[PASSWORD_HASH], [x].[PASSWORD_SALT]
+FROM [USERS] AS [x]
+WHERE [x].[EMAIL] = @__user_EMAIL_0 
+2019-01-10 12:45:43.9342|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Login (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 82140.0152ms. 
+2019-01-10 12:45:43.9640|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'. 
+2019-01-10 12:45:43.9910|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Login (TrelloClone) in 82687.2491ms 
+2019-01-10 12:45:43.9910|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 12:45:44.0037|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 82860.179ms 200 text/plain; charset=utf-8 
+2019-01-10 12:45:58.5336|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 12:45:58.5642|2|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token. 
+2019-01-10 12:45:58.5690|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 12:45:58.5690|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 12:45:58.5865|1|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful. 
+2019-01-10 12:45:58.5865|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.ValuesController.GetList (TrelloClone) - Validation state: Valid 
+2019-01-10 12:45:58.5865|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.ValuesController.GetList (TrelloClone), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.6315ms. 
+2019-01-10 12:45:58.5966|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-01-10 12:45:58.5966|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 20.5092ms 
+2019-01-10 12:45:58.5966|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 12:45:58.5966|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 70.6696ms 200 application/json; charset=utf-8 
+2019-01-10 21:09:15.3028||DEBUG|TrelloClone.Program|init main 
+2019-01-10 21:09:20.6250||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 21:20:50.4095|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/register   
+2019-01-10 21:20:50.4780|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 21:20:50.4780|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 21:20:50.4975|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87.6414ms 204  
+2019-01-10 21:20:50.5085|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/register application/json;charset=UTF-8 71 
+2019-01-10 21:20:50.5085|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 21:20:50.5085|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 21:20:50.7085|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 199.9029ms 404  
+2019-01-10 21:20:50.7594|32|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLJMUO7BDJ2G", Request id "0HLJMUO7BDJ2G:00000002": the application completed without reading the entire request body. 
+2019-01-10 21:22:03.5117|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/register   
+2019-01-10 21:22:03.5117|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 21:22:03.5282|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 21:22:03.5367|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.9469ms 204  
+2019-01-10 21:22:03.5367|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/register application/json;charset=UTF-8 71 
+2019-01-10 21:22:03.5367|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 21:22:03.5367|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 21:22:03.5770|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 37.604ms 404  
+2019-01-10 21:22:03.5770|32|INFO|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLJMUO7BDJ2G", Request id "0HLJMUO7BDJ2G:00000004": the application completed without reading the entire request body. 
+2019-01-10 21:23:15.2726|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/register   
+2019-01-10 21:23:15.2726|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 21:23:15.2894|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 21:23:15.2894|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 22.407ms 204  
+2019-01-10 21:23:15.2894|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register application/json;charset=UTF-8 71 
+2019-01-10 21:23:15.2999|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 21:23:15.2999|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 21:23:15.2999|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 21:23:15.3245|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 21:23:15.9958|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Register (TrelloClone) with arguments (TrelloClone.Dtos.UsersRegisterRequestDto) - Validation state: Valid 
+2019-01-10 21:23:23.4369|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 21:23:25.2728|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (69ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [USERS] AS [x]
+        WHERE [x].[EMAIL] = @__user_EMAIL_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END 
+2019-01-10 21:23:30.2420|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [USERS] ([EMAIL], [NAME], [PASSWORD_HASH], [PASSWORD_SALT])
+VALUES (@p0, @p1, @p2, @p3); 
+2019-01-10 21:23:31.9711|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Register (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkResult in 15968.682ms. 
+2019-01-10 21:23:31.9888|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2019-01-10 21:23:31.9888|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 16666.0378ms 
+2019-01-10 21:23:31.9888|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 21:23:31.9888|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16702.2346ms 200  
+2019-01-10 21:31:10.6319|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/register   
+2019-01-10 21:31:10.6319|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 21:31:10.6319|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 21:31:10.6319|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.2586ms 204  
+2019-01-10 21:31:10.6461|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/register application/json;charset=UTF-8 71 
+2019-01-10 21:31:10.6461|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 21:31:10.6461|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 21:31:10.6461|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 21:31:10.6461|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Register", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Register (TrelloClone) 
+2019-01-10 21:31:10.6661|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Register (TrelloClone) with arguments (TrelloClone.Dtos.UsersRegisterRequestDto) - Validation state: Valid 
+2019-01-10 21:31:12.8306|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 21:31:12.8855|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (26ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [USERS] AS [x]
+        WHERE [x].[EMAIL] = @__user_EMAIL_0)
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END 
+2019-01-10 21:31:12.8855|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Register (TrelloClone), returned result Microsoft.AspNetCore.Mvc.StatusCodeResult in 2220.0366ms. 
+2019-01-10 21:31:12.8931|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-01-10 21:31:12.9123|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Register (TrelloClone) in 2254.2605ms 
+2019-01-10 21:31:12.9123|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Register (TrelloClone)' 
+2019-01-10 21:31:12.9123|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2270.5856ms 500 application/problem+json; charset=utf-8 
+2019-01-10 21:35:54.5153|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/login   
+2019-01-10 21:35:54.5186|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 21:35:54.5186|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 21:35:54.5186|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.7554ms 204  
+2019-01-10 21:35:54.5186|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/login application/json;charset=UTF-8 52 
+2019-01-10 21:35:54.5638|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 21:35:54.5658|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 21:35:54.5658|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 21:35:54.5658|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Login (TrelloClone) 
+2019-01-10 21:35:54.5658|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Login (TrelloClone) with arguments (TrelloClone.Dtos.UsersLoginRequestDto) - Validation state: Valid 
+2019-01-10 21:36:01.6911|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 21:36:01.7399|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [x].[EMAIL], [x].[NAME], [x].[PASSWORD_HASH], [x].[PASSWORD_SALT]
+FROM [USERS] AS [x]
+WHERE [x].[EMAIL] = @__user_EMAIL_0 
+2019-01-10 21:36:05.8385|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Login (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11258.6044ms. 
+2019-01-10 21:36:05.8385|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'. 
+2019-01-10 21:36:05.8385|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Login (TrelloClone) in 11266.5728ms 
+2019-01-10 21:36:05.8385|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 21:36:05.8385|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11313.9733ms 200 text/plain; charset=utf-8 
+2019-01-10 22:05:09.4448||DEBUG|TrelloClone.Program|init main 
+2019-01-10 22:05:11.4798||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 22:05:41.2617|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/login   
+2019-01-10 22:05:41.3082|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 22:05:41.3166|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 22:05:41.3314|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 69.9348ms 204  
+2019-01-10 22:05:41.3314|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/login application/json;charset=UTF-8 52 
+2019-01-10 22:05:41.3314|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 22:05:41.3314|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 22:05:41.3886|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 22:05:41.4144|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Login (TrelloClone) 
+2019-01-10 22:05:41.9537|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Login (TrelloClone) with arguments (TrelloClone.Dtos.UsersLoginRequestDto) - Validation state: Valid 
+2019-01-10 22:05:44.6974|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 22:05:46.8210|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (46ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [x].[EMAIL], [x].[NAME], [x].[PASSWORD_HASH], [x].[PASSWORD_SALT]
+FROM [USERS] AS [x]
+WHERE [x].[EMAIL] = @__user_EMAIL_0 
+2019-01-10 22:05:47.0021|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Login (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5044.4423ms. 
+2019-01-10 22:05:47.0121|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String'. 
+2019-01-10 22:05:47.0237|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Login (TrelloClone) in 5605.0076ms 
+2019-01-10 22:05:47.0237|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 22:05:47.0237|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5697.7902ms 200 text/plain; charset=utf-8 
+2019-01-10 22:31:58.9536||DEBUG|TrelloClone.Program|init main 
+2019-01-10 22:32:02.3205||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 23:09:06.3282||DEBUG|TrelloClone.Program|init main 
+2019-01-10 23:09:12.7215||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 23:23:26.4407||DEBUG|TrelloClone.Program|init main 
+2019-01-10 23:23:32.1686||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 23:24:18.5430|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 23:24:18.6612|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:24:18.6612|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:24:45.8609|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:24:45.8778|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 23:24:45.9043|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 23:24:45.9043|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 23:24:45.9135|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 23:24:46.1187|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 23:24:46.1187|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 234.41ms 
+2019-01-10 23:24:46.1280|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:24:46.1434|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 27600.8351ms 401  
+2019-01-10 23:25:30.2975|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/login   
+2019-01-10 23:25:30.3059|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:25:30.3059|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:25:30.3181|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 20.5296ms 204  
+2019-01-10 23:25:30.3181|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/login application/json;charset=UTF-8 52 
+2019-01-10 23:25:30.3181|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:25:30.3181|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:25:32.2937|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 23:25:32.3169|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Login (TrelloClone) 
+2019-01-10 23:25:33.0162|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Login (TrelloClone) with arguments (TrelloClone.Dtos.UsersLoginRequestDto) - Validation state: Valid 
+2019-01-10 23:25:33.7978|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 23:25:36.4840|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (86ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [x].[EMAIL], [x].[NAME], [x].[PASSWORD_HASH], [x].[PASSWORD_SALT]
+FROM [USERS] AS [x]
+WHERE [x].[EMAIL] = @__user_EMAIL_0 
+2019-01-10 23:25:36.6807|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Login (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkResult in 3660.1713ms. 
+2019-01-10 23:25:36.6807|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2019-01-10 23:25:36.6807|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Login (TrelloClone) in 4371.0387ms 
+2019-01-10 23:25:36.6901|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 23:25:36.6901|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6374.9619ms 200  
+2019-01-10 23:25:39.2009|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 23:25:39.2009|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:25:39.2009|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:25:53.5878|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:25:53.5878|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 23:25:53.5878|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 23:25:53.5878|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 23:25:53.5878|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 23:25:53.5973|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 23:25:53.5973|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 7.8651ms 
+2019-01-10 23:25:53.5973|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:25:53.5973|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14402.7382ms 401  
+2019-01-10 23:27:55.4872|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/login   
+2019-01-10 23:27:55.4872|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:27:55.5050|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:27:55.5050|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.82ms 204  
+2019-01-10 23:27:55.5050|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/login application/json;charset=UTF-8 52 
+2019-01-10 23:27:55.5182|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:27:55.5182|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:28:01.5755|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 23:28:01.5755|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Login (TrelloClone) 
+2019-01-10 23:28:01.6025|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Login (TrelloClone) with arguments (TrelloClone.Dtos.UsersLoginRequestDto) - Validation state: Valid 
+2019-01-10 23:28:03.6253|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 23:28:03.6425|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [x].[EMAIL], [x].[NAME], [x].[PASSWORD_HASH], [x].[PASSWORD_SALT]
+FROM [USERS] AS [x]
+WHERE [x].[EMAIL] = @__user_EMAIL_0 
+2019-01-10 23:29:02.7018|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Login (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkResult in 61093.7142ms. 
+2019-01-10 23:29:02.7018|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2019-01-10 23:29:02.7162|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Login (TrelloClone) in 61124.9899ms 
+2019-01-10 23:29:02.7162|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 23:29:02.7162|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67202.5853ms 200  
+2019-01-10 23:30:44.4690|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 23:30:44.4690|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:30:44.4741|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:30:46.3381|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:30:46.3381|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 23:30:46.3381|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 23:30:46.3381|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 23:30:46.3463|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 23:30:46.3463|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 23:30:46.3463|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 6.4292ms 
+2019-01-10 23:30:46.3463|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:30:46.3463|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1882.0412ms 401  
+2019-01-10 23:33:43.3586||DEBUG|TrelloClone.Program|init main 
+2019-01-10 23:33:45.2917||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\hunt2\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-01-10 23:33:56.2388|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/login   
+2019-01-10 23:33:56.2830|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:33:56.2875|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:33:56.2875|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 59.5604ms 204  
+2019-01-10 23:33:56.3027|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:5001/api/auth/login application/json;charset=UTF-8 52 
+2019-01-10 23:33:56.3027|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:33:56.3027|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:34:01.9774|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 23:34:02.0014|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing action TrelloClone.Controllers.AuthController.Login (TrelloClone) 
+2019-01-10 23:34:02.5151|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method TrelloClone.Controllers.AuthController.Login (TrelloClone) with arguments (TrelloClone.Dtos.UsersLoginRequestDto) - Validation state: Valid 
+2019-01-10 23:34:05.5292|10403|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.2.1-servicing-10028 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None 
+2019-01-10 23:34:06.0498|20101|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (5ms) [Parameters=[@__user_EMAIL_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [x].[EMAIL], [x].[NAME], [x].[PASSWORD_HASH], [x].[PASSWORD_SALT]
+FROM [USERS] AS [x]
+WHERE [x].[EMAIL] = @__user_EMAIL_0 
+2019-01-10 23:34:12.6344|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method TrelloClone.Controllers.AuthController.Login (TrelloClone), returned result Microsoft.AspNetCore.Mvc.OkResult in 10112.3246ms. 
+2019-01-10 23:34:12.6544|1|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 200 
+2019-01-10 23:34:12.6627|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.AuthController.Login (TrelloClone) in 10657.0376ms 
+2019-01-10 23:34:12.6627|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.AuthController.Login (TrelloClone)' 
+2019-01-10 23:34:12.6627|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16367.362ms 200  
+2019-01-10 23:35:42.0253|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 23:35:42.0253|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:35:42.0253|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:35:43.5723|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:35:43.5723|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 23:35:43.5903|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 23:35:43.5903|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 23:35:43.5982|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 23:35:43.6210|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 23:35:43.6210|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 45.3747ms 
+2019-01-10 23:35:43.6210|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:35:43.6210|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1601.5773ms 401  
+2019-01-10 23:36:07.4728|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 23:36:07.4728|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:36:07.4889|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:36:19.1365|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:36:19.1435|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 23:36:19.1435|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 23:36:19.1435|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 23:36:19.1435|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 23:36:19.1435|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 23:36:19.1435|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 5.0184ms 
+2019-01-10 23:36:19.1435|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:36:19.1435|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11678.1445ms 401  
+2019-01-10 23:48:19.6348|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 23:48:19.6348|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:48:19.6348|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:48:22.3640|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:48:22.3640|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 23:48:22.3640|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 23:48:22.3640|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 23:48:22.3640|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 23:48:22.3640|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 23:48:22.3640|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 6.8178ms 
+2019-01-10 23:48:22.3849|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:48:22.3849|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2752.2095ms 401  
+2019-01-10 23:48:50.8864|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:5001/api/values   
+2019-01-10 23:48:50.9022|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:48:50.9022|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:49:01.1861|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:49:01.1927|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "GetList", controller = "Values"}. Executing action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) 
+2019-01-10 23:49:01.1927|2|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. 
+2019-01-10 23:49:01.1927|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2019-01-10 23:49:01.1927|1|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (). 
+2019-01-10 23:49:01.1927|12|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged. 
+2019-01-10 23:49:01.1927|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action TrelloClone.Controllers.ValuesController.GetList (TrelloClone) in 5.7585ms 
+2019-01-10 23:49:01.1927|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'TrelloClone.Controllers.ValuesController.GetList (TrelloClone)' 
+2019-01-10 23:49:01.1927|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10315.1786ms 401  
+2019-01-10 23:49:29.2109|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/login   
+2019-01-10 23:49:29.2109|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:49:29.2109|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:49:29.2109|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.2096ms 204  
+2019-01-10 23:50:31.1301|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/login   
+2019-01-10 23:50:31.1504|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:50:31.1504|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:50:31.1504|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.1419ms 204  
+2019-01-10 23:50:35.1789|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/login   
+2019-01-10 23:50:35.1789|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:50:35.1789|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:50:35.1789|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.8005ms 204  
+2019-01-10 23:50:46.3659|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/login   
+2019-01-10 23:50:46.3659|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:50:46.3790|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:50:46.3790|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.691ms 204  
+2019-01-10 23:50:48.6856|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 OPTIONS https://localhost:5001/api/auth/login   
+2019-01-10 23:50:48.6856|11|WARN|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. 
+2019-01-10 23:50:48.6856|4|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful. 
+2019-01-10 23:50:48.6901|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.4842ms 204  
