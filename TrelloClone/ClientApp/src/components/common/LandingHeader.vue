@@ -1,16 +1,18 @@
 <template>
   <v-toolbar color="primary" fixed height="80em" dark :class="{'on-top':isOnTop}"
   >
+  <v-card>
     <v-img
       :src="require('../../images/trello-logo-white.svg')"
       max-width="130"
       @click="logoClick"
       class="clickable"
     ></v-img>
+  </v-card>
     <v-spacer></v-spacer>
     <v-layout justify-end>
       <template v-if="isLogin === true">
-        <v-btn to="/boards" color="blue darken-3" dark round>Go to Your Boards</v-btn>
+        <v-btn to="/board" color="blue darken-3" dark round>Go to Your Boards</v-btn>
       </template>
       <template v-else-if="isLogin === false">
         <v-btn to="/login" flat round>Log in</v-btn>

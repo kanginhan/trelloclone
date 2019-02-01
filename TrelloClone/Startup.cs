@@ -40,6 +40,7 @@ namespace TrelloClone
 
             // 의존성 주입
             services.AddScoped<IUsersRepository, UsersRepository>();
+            services.AddScoped<IBoardRepository, BoardRepository>();
 
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c => {

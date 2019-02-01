@@ -10,5 +10,13 @@ export default {
         checkToken: BASE_URL + "/auth/checkToken",
         logout: BASE_URL + "/auth/logout",
         checkDuplication: BASE_URL + "/auth/duplication",
+    },
+    board: {
+        getBoard: BASE_URL + "/board/getBoard",
+        saveList: BASE_URL + "/board/saveList",
+        saveBoardTitle: BASE_URL + "/board/saveBoardTitle",
+        saveCard: BASE_URL + "/board/saveCard",
+        deleteList: BASE_URL + "/board/deleteList",
+        deleteCard: BASE_URL + "/board/deleteCard"
     }
 }

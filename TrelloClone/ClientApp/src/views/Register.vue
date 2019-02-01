@@ -103,7 +103,7 @@ export default {
           return this.$axios.post(UrlConfig.auth.register, this.user);
         })
         .then(response => {
-          this.$router.push("/boards");
+          this.$router.push("/board");
         })
         .catch(ex => {
           alert(ex);

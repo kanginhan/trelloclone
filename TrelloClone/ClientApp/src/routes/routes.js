@@ -3,6 +3,7 @@ import Home from '../views/Home.vue'
 import Register from '../views/Register.vue'
 import Login from '../views/Login.vue'
 import Boards from '../views/Boards.vue'
+import Board from '../views/Board.vue'
 
 var routes = [{
         path: '/',
@@ -28,6 +29,11 @@ var routes = [{
         path: '/boards',
         name: 'boards',
         component: Boards
+    },
+    {
+        path: '/board',
+        name: 'board',
+        component: Board
     }
 ]
 
