@@ -10,7 +10,7 @@ export default {
   beforeCreate: function(){
     this.$axios.get(UrlConfig.auth.checkToken)
       .then((response) => {
-          this.$router.push('/board')
+          this.$router.push('/boards')
       })
       .catch((ex) => {
         this.$router.push('/home')

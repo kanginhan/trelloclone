@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -22,19 +24,33 @@ namespace TrelloClone.Data
         private DataContext _context;
         private IMapper _mapper;
         private Config _config;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public BoardRepository(DataContext context, IMapper mapper, IOptions<Config> config)
+        private string UserEmail
+        {
+            get {
+                return this._httpContextAccessor.HttpContext.User.Identity.Name;
+            }
+        }
+
+        public BoardRepository(DataContext context, IMapper mapper, IOptions<Config> config, IHttpContextAccessor httpContextAccessor)
         {
             _context = context;
             _mapper = mapper;
             _config = config.Value;
+            _httpContextAccessor = httpContextAccessor;
         }
 
-        public BoardDto GetBoard(string email, int boardSeq)
+        public BoardDto GetBoard(string email, int? boardSeq)
         {
             var board = _context.BOARD.Find(email, boardSeq);
             if (board == null) {
-                board = this.GetNewBoard(email);
+                return null;
+            }
+
+            // private시 사용자 체크
+            if (board.PUBLIC_TF == false && this.UserEmail != email) {
+                return null;
             }
 
             var cardLists = from cardList in _context.CARD_LIST
@@ -42,41 +58,52 @@ namespace TrelloClone.Data
                             on new { cardList.EMAIL, cardList.BOARD_SEQ, cardList.LIST_SEQ } equals new { card.EMAIL, card.BOARD_SEQ, card.LIST_SEQ } into cards
                             where cardList.EMAIL == email && cardList.BOARD_SEQ == boardSeq
                             select new CardListResultDto {
-                                listSeq = cardList.LIST_SEQ,
+                                seq = cardList.LIST_SEQ,
                                 listTitle = cardList.LIST_TITLE,
+                                prevSeq = cardList.PREV_LIST,
                                 cards = cards.Select(x => new CardResultDto {
-                                    cardSeq = x.CARD_SEQ,
+                                    seq = x.CARD_SEQ,
                                     title = x.CARD_TITLE,
-                                    description = x.DESCRIPTION
-                                })
+                                    description = x.DESCRIPTION,
+                                    prevSeq = x.PREV_CARD
+                                }).SetTreeOrder()
                             };
 
             var result = new BoardDto {
                 boardSeq = board.BOARD_SEQ,
                 boardTitle = board.BOARD_TITLE,
-                cardLists = cardLists
+                isPublic = board.PUBLIC_TF,
+                canEditing = this.UserEmail == email,
+                cardLists = cardLists.SetTreeOrder()
             };
 
             return result;
         }
 
-        public BOARD GetNewBoard(string email, string boardTitle = "Board Title")
+        public IEnumerable<BoardDto> GetBoardList()
         {
-            var maxSeq = _context.BOARD.Count() > 0 ? _context.BOARD.Max(x => x.BOARD_SEQ) : -1;
+            return _context.BOARD.Where(x => x.EMAIL == this.UserEmail)
+                .Select(x => new BoardDto {
+                    hashId = CardUtil.GetHashId(this.UserEmail, x.BOARD_SEQ),
+                    boardSeq = x.BOARD_SEQ,
+                    boardTitle = x.BOARD_TITLE
+                });
+        }
+
+        public void SaveBoard(BoardDto board)
+        {
             var entity = new BOARD {
-                BOARD_SEQ = maxSeq + 1,
-                EMAIL = email,
-                BOARD_TITLE = boardTitle
+                EMAIL = this.UserEmail,
+                BOARD_SEQ = board.boardSeq,
+                BOARD_TITLE = board.boardTitle
             };
             _context.BOARD.Add(entity);
             _context.SaveChanges();
-
-            return entity;
         }
 
-        public void SaveBoardTitle(string email, BoardDto board)
+        public void SaveBoardTitle(BoardDto board)
         {
-            var findBoard = _context.BOARD.Find(email, board.boardSeq);
+            var findBoard = _context.BOARD.Find(this.UserEmail, board.boardSeq);
             if (findBoard != null) {
                 findBoard.BOARD_TITLE = board.boardTitle;
                 _context.BOARD.Update(findBoard);
@@ -84,59 +111,122 @@ namespace TrelloClone.Data
             }
         }
 
-        public void SaveList(string email, BoardSaveListRequestDto cardList)
+        public void SaveList(BoardSaveListRequestDto cardList)
         {
             var entity = new CARD_LIST {
-                EMAIL = email,
+                EMAIL = this.UserEmail,
                 BOARD_SEQ = cardList.boardSeq,
-                LIST_SEQ = cardList.listSeq,
-                LIST_TITLE = cardList.listTitle
+                LIST_SEQ = cardList.seq,
+                LIST_TITLE = cardList.listTitle,
+                PREV_LIST = cardList.prevSeq,
             };
-            var findList = _context.CARD_LIST.Find(email, cardList.boardSeq, cardList.listSeq);
+            var findList = _context.CARD_LIST.Find(this.UserEmail, cardList.boardSeq, cardList.seq);
             if (findList == null) {
                 _context.CARD_LIST.Add(entity);
             }
             else {
                 findList.LIST_TITLE = entity.LIST_TITLE;
+                findList.PREV_LIST = entity.PREV_LIST;
                 _context.CARD_LIST.Update(findList);
             }
 
             _context.SaveChanges();
         }
 
-        public void SaveCard(string email, BoardSaveCardRequestDto card)
+        public void SaveListTitle(BoardSaveListRequestDto cardList)
+        {
+            var findList = _context.CARD_LIST.Find(this.UserEmail, cardList.boardSeq, cardList.seq);
+            if (findList != null) {
+                findList.LIST_TITLE = cardList.listTitle;
+                _context.CARD_LIST.Update(findList);
+                _context.SaveChanges();
+            }
+        }
+
+        public void SaveCard(BoardSaveCardRequestDto card)
         {
             var entity = new CARD {
-                EMAIL = email,
+                EMAIL = this.UserEmail,
                 BOARD_SEQ = card.boardSeq,
                 LIST_SEQ = card.listSeq,
-                CARD_SEQ = card.cardSeq,
+                CARD_SEQ = card.seq,
                 CARD_TITLE = card.title,
-                DESCRIPTION = card.description
+                DESCRIPTION = card.description,
+                PREV_CARD = card.prevSeq
             };
-            var findCard = _context.CARD.Find(email, entity.BOARD_SEQ, entity.LIST_SEQ, entity.CARD_SEQ);
-            if(findCard == null) {
+            var findCard = _context.CARD.Find(this.UserEmail, entity.BOARD_SEQ, entity.LIST_SEQ, entity.CARD_SEQ);
+            if (findCard == null) {
                 _context.CARD.Add(entity);
             }
             else {
                 findCard.CARD_TITLE = entity.CARD_TITLE;
                 findCard.DESCRIPTION = entity.DESCRIPTION;
+                findCard.PREV_CARD = entity.PREV_CARD;
                 _context.CARD.Update(findCard);
             }
             _context.SaveChanges();
         }
 
-        public void DeleteList(string email, BoardSaveListRequestDto list)
+        public void SaveCardContent(BoardSaveCardRequestDto card)
         {
-            _context.CARD.RemoveRange(_context.CARD.Where(x => x.EMAIL == email && x.BOARD_SEQ == list.boardSeq && x.LIST_SEQ == list.listSeq));
-            _context.CARD_LIST.Remove(_context.CARD_LIST.Find(email, list.boardSeq, list.listSeq));
+            var findCard = _context.CARD.Find(this.UserEmail, card.boardSeq, card.listSeq, card.seq);
+            if (findCard != null) {
+                findCard.CARD_TITLE = card.title;
+                findCard.DESCRIPTION = card.description;
+                _context.CARD.Update(findCard);
+                _context.SaveChanges();
+            }
+
+        }
+
+        public void DeleteBoard(BoardDto board)
+        {
+            _context.CARD.RemoveRange(_context.CARD.Where(x => x.EMAIL == this.UserEmail && x.BOARD_SEQ == board.boardSeq));
+            _context.CARD_LIST.RemoveRange(_context.CARD_LIST.Where(x => x.EMAIL == this.UserEmail && x.BOARD_SEQ == board.boardSeq));
+            _context.BOARD.Remove(_context.BOARD.Find(this.UserEmail, board.boardSeq));
             _context.SaveChanges();
         }
 
-        public void DeleteCard(string email, BoardSaveCardRequestDto card)
+        public void DeleteList(BoardSaveListRequestDto list)
         {
-            _context.CARD.Remove(_context.CARD.Find(email, card.boardSeq, card.listSeq, card.cardSeq));
+            _context.CARD.RemoveRange(_context.CARD.Where(x => x.EMAIL == this.UserEmail && x.BOARD_SEQ == list.boardSeq && x.LIST_SEQ == list.seq));
+            _context.CARD_LIST.Remove(_context.CARD_LIST.Find(this.UserEmail, list.boardSeq, list.seq));
             _context.SaveChanges();
+        }
+
+        public void DeleteCard(BoardSaveCardRequestDto card)
+        {
+            _context.CARD.Remove(_context.CARD.Find(this.UserEmail, card.boardSeq, card.listSeq, card.seq));
+            _context.SaveChanges();
+        }
+
+        public void UpdateListPrevSeq(List<BoardUpdateListPrevSeqRequestDto> updates)
+        {
+            updates.ForEach(x => {
+                var findList = _context.CARD_LIST.Find(this.UserEmail, x.boardSeq, x.seq);
+                if (findList != null) {
+                    findList.PREV_LIST = x.prevSeq;
+                }
+                _context.CARD_LIST.Update(findList);
+            });
+            _context.SaveChanges();
+        }
+
+        public void UpdateCardPrevSeq(List<BoardUpdateCardPrevSeqRequestDto> updates)
+        {
+            updates.ForEach(x => {
+                _context.Database.ExecuteSqlCommand($"UPDATE CARD SET LIST_SEQ = {x.listSeq}, CARD_SEQ = {x.seq}, PREV_CARD = {x.prevSeq} WHERE EMAIL = {this.UserEmail} AND BOARD_SEQ = {x.boardSeq} AND LIST_SEQ = {x.fromListSeq ?? x.listSeq} AND CARD_SEQ = {x.fromSeq ?? x.seq};");
+            });
+        }
+
+        public void UpdateIsPublic(BoardDto board)
+        {
+            var findBoard = _context.BOARD.Find(this.UserEmail, board.boardSeq);
+            if (findBoard != null) {
+                findBoard.PUBLIC_TF = board.isPublic;
+                _context.BOARD.Update(findBoard);
+                _context.SaveChanges();
+            }
         }
     }
 }

@@ -9,5 +9,9 @@ export default {
     saveCardTitle: "saveCardTitle",
     saveCardDesc: "saveCardDesc",
     getBoard: "getBoard",
-    setKeyword: "setKeyword"
+    setKeyword: "setKeyword",
+    changeListSort: "changeListSort",
+    changeCardSort: "changeCardSort",
+    deleteBoard: "deleteBoard",
+    setPublic: "setPublic"
 }

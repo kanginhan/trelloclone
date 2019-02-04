@@ -17,6 +17,14 @@ export default {
         saveBoardTitle: BASE_URL + "/board/saveBoardTitle",
         saveCard: BASE_URL + "/board/saveCard",
         deleteList: BASE_URL + "/board/deleteList",
-        deleteCard: BASE_URL + "/board/deleteCard"
+        deleteCard: BASE_URL + "/board/deleteCard",
+        updateListPrevSeq: BASE_URL + "/board/updateListPrevSeq",
+        updateCardPrevSeq: BASE_URL + "/board/updateCardPrevSeq",
+        saveListTitle: BASE_URL + "/board/saveListTitle",
+        saveCardContent: BASE_URL + "/board/saveCardContent",
+        getBoardList: BASE_URL + "/board/getBoardList",
+        deleteBoard: BASE_URL + "/board/deleteBoard",
+        saveBoard: BASE_URL + "/board/saveBoard",
+        updateIsPublic: BASE_URL + "/board/updateIsPublic"
     }
 }

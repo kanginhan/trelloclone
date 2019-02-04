@@ -15,5 +15,7 @@ namespace TrelloClone.Entities
         public int LIST_SEQ { get; set; }
 
         public string LIST_TITLE { get; set; }
+
+        public int? PREV_LIST { get; set; }
     }
 }

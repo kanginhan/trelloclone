@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using TrelloClone.Entities;
 
 namespace TrelloClone.Dtos
 {
-    public class BoardSaveCardRequestDto
+    public class TreeBaseDto
     {
-        public int boardSeq { get; set; }
-        public int listSeq { get; set; }
         public int seq { get; set; }
-        public string title { get; set; }
-        public string description { get; set; }
         public int? prevSeq { get; set; }
+        public int order { get; set; }
     }
 }

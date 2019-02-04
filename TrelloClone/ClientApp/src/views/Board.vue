@@ -1,10 +1,12 @@
 <template>
   <v-app>
     <board-header></board-header>
-    <v-content app style="background-color:rgb(81, 152, 57); overflow: auto;" class="px-2">
+    <v-content v-if="isLoading" app style="background-color:rgb(81, 152, 57); overflow: auto;" class="px-2">
+    </v-content>
+    <v-content v-else-if="isValidBoard" app style="background-color:rgb(81, 152, 57); overflow: auto;" class="px-2">
       <v-layout class="py-3" align-center>
         <v-text-field
-          v-if="titleEditing"
+          v-if="titleEditing && canEditing"
           dark
           ref="boardTitle"
           class="title font-weight-bold"
@@ -17,26 +19,19 @@
         ></v-text-field>
         <div
           v-else
-          class="title white--text font-weight-bold pl-2 clickable"
+          class="title white--text font-weight-bold pl-2 pt-4 clickable"
           @click="changeTitleEditing"
         >{{boardTitle}}</div>
-        <div class="body-2 font-weight-light white--text pl-2 pr-3">| Personal | Private</div>
+        
+        <v-switch v-if="canEditing" :label="isPublic?'Public':'Private'" v-model="isPublic" hide-details color="pink" class="pl-5" dark></v-switch>
       </v-layout>
       <v-layout class="pb-3">
-<Container
-      orientation="horizontal"
-      @drop="onColumnDrop($event)"
-      @drag-start="dragStart"
-    >
-    
-    <Draggable v-for="cardList in cardLists" :key="cardList.listSeq">
-      <card-list :cardList="cardList"></card-list>
-      
-    </Draggable>
-    
-    
-</Container>
-<div>
+        <Container orientation="horizontal" @drop="onColumnDrop($event)" @drag-start="dragStart">
+          <Draggable v-for="cardList in cardLists" :key="cardList.listSeq">
+            <card-list :cardList="cardList"></card-list>
+          </Draggable>
+        </Container>
+        <div v-if="canEditing">
           <v-card
             dark
             color="#3f6f21"
@@ -48,10 +43,17 @@
             <span>+ Another another list</span>
           </v-card>
         </div>
-</v-layout>
+      </v-layout>
     </v-content>
-    
-      
+    <v-content v-else>
+      <v-container>
+        <v-layout>
+          <v-flex class="text-xs-center py-5">
+            <span class="title">Board Not Found</span>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </v-content>
   </v-app>
 </template>
 
@@ -62,118 +64,80 @@ import StoreConfig from "../store/StoreConfig";
 import { mapActions } from "vuex";
 import UrlConfig from "../api/UrlConfig";
 import _ from "lodash";
+import { Container, Draggable } from "vue-smooth-dnd";
+import { applyDrag } from "../utils/helpers";
 
-import { Container, Draggable } from 'vue-smooth-dnd'
-import { applyDrag, generateItems } from '../utils/helpers'
-const lorem = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
-const columnNames = ['Lorem', 'Ipsum', 'Consectetur', 'Eiusmod']
-const cardColors = [
-  'azure',
-  'beige',
-  'bisque',
-  'blanchedalmond',
-  'burlywood',
-  'cornsilk',
-  'gainsboro',
-  'ghostwhite',
-  'ivory',
-  'khaki'
-]
-const pickColor = () => {
-  const rand = Math.floor(Math.random() * 10)
-  return cardColors[rand]
-}
-const scene = {
-  type: 'container',
-  props: {
-    orientation: 'horizontal'
-  },
-  children: generateItems(4, i => ({
-    id: `column${i}`,
-    type: 'container',
-    name: columnNames[i],
-    props: {
-      orientation: 'vertical',
-      className: 'card-container'
-    },
-    children: generateItems(+(Math.random() * 10).toFixed() + 5, j => ({
-      type: 'draggable',
-      id: `${i}${j}`,
-      props: {
-        className: 'card',
-        style: {backgroundColor: pickColor()}
-      },
-      data: lorem.slice(0, Math.floor(Math.random() * 150) + 30)
-    }))
-  }))
-}
 
 export default {
   name: "board",
+  props:["hashId"],
   components: {
     BoardHeader,
     CardList,
-    Container, Draggable
+    Container,
+    Draggable
   },
   data: function() {
     return {
-      titleEditing: false,
-      scene,
-      cardLists: [{
-                    listSeq: 0,
-                    listTitle: "공지사항",
-                    cards: [
-                        { cardSeq: 0, title: "모임", description: "0000" },
-                        { cardSeq: 1, title: "모임2", description: "0000" }
-                    ]
-                },
-                {
-                    listSeq: 1,
-                    listTitle: "해야할일",
-                    cards: [
-                        { cardSeq: 0, title: "운동하기", description: "0000" },
-                        { cardSeq: 1, title: "노래하기", description: "0000" }
-                    ]
-                }
-            ]
+      isLoading: false,
+      isValidBoard: true,
+      titleEditing: false
     };
   },
   computed: {
     boardTitle() {
       return this.$store.state.board.boardTitle;
     },
-    // cardLists: function() {
-    //   debugger;
-    //   var cardList = [];
-    //   var keyword = this.$store.state.keyword;
-    //   this.$store.state.board.cardLists.forEach(x => {
-    //     if (x.listTitle.toUpperCase().includes(keyword.toUpperCase())) {
-    //       cardList.push(x);
-    //     } else {
-    //       var cards = [];
-    //       x.cards &&
-    //         x.cards.forEach(c => {
-    //           if (
-    //             c.title.toUpperCase().includes(keyword.toUpperCase()) ||
-    //             c.description.toUpperCase().includes(keyword.toUpperCase())
-    //           ) {
-    //             cards.push(c);
-    //           }
-    //         });
+    isPublic: {
+      get: function () {
+        return this.$store.state.board.isPublic
+      },
+      set: function (newValue) {
+        this.$store.dispatch(StoreConfig.setPublic, newValue)
+      }
+    },
+    canEditing: function(){
+      return this.$store.state.board.canEditing
+    },
+    cardLists: function() {
+      var cardList = [];
+      var keyword = this.$store.state.keyword;
+      if (keyword) {
+        this.$store.state.board.cardLists.forEach(x => {
+          if (x.listTitle.toUpperCase().includes(keyword.toUpperCase())) {
+            cardList.push({
+              seq: x.seq,
+              listTitle: x.listTitle,
+              prevSeq: x.prevSeq,
+              order: x.order,
+              cards: x.cards.sort((a, b) => a.order - b.order)
+            });
+          } else {
+            var cards = [];
+            x.cards &&
+              x.cards.forEach(c => {
+                if (
+                  c.title.toUpperCase().includes(keyword.toUpperCase()) ||
+                  c.description.toUpperCase().includes(keyword.toUpperCase())
+                ) {
+                  cards.push(c);
+                }
+              });
 
-    //       if (cards.length > 0) {
-    //         cardList.push({
-    //           listSeq: x.listSeq,
-    //           listTitle: x.listTitle,
-    //           cards: cards
-    //         });
-    //       }
-    //     }
-    //   });
-    //   return cardList;
-    // }
+            if (cards.length > 0) {
+              cardList.push({
+                seq: x.seq,
+                listTitle: x.listTitle,
+                cards: cards.sort((a, b) => a.order - b.order)
+              });
+            }
+          }
+        });
+        return cardList.sort((a, b) => a.order - b.order);
+      } else {
+        return this.$store.state.board.cardLists;
+      }
+    }
   },
   methods: {
     changeTitleEditing: function() {
@@ -183,47 +147,31 @@ export default {
       this.titleEditing = false;
 
       if (e.target.value) {
-        this.$store.dispatch(StoreConfig.saveBoardTitle, e.target.value);
+        this.$store.dispatch(StoreConfig.saveBoardTitle, e.target.value)
       }
     },
-        onColumnDrop (dropResult) {
-      const scene = Object.assign({}, this.scene)
-      scene.children = applyDrag(scene.children, dropResult)
-      this.scene = scene
-    },
-    onCardDrop (columnId, dropResult) {
-      if (dropResult.removedIndex !== null || dropResult.addedIndex !== null) {
-        const scene = Object.assign({}, this.scene)
-        const column = scene.children.filter(p => p.id === columnId)[0]
-        const columnIndex = scene.children.indexOf(column)
-        const newColumn = Object.assign({}, column)
-        newColumn.children = applyDrag(newColumn.children, dropResult)
-        scene.children.splice(columnIndex, 1, newColumn)
-        this.scene = scene
+    onColumnDrop(dropResult) {
+      if(dropResult.removedIndex != dropResult.addedIndex){
+        this.$store.dispatch(StoreConfig.changeListSort, dropResult)
       }
     },
-    getCardPayload (columnId) {
-      return index => {
-        return this.scene.children.filter(p => p.id === columnId)[0].children[index]
-      }
-    },
-    dragStart () {
-      console.log('drag started')
-    },
-    log (...params) {
-      console.log(...params)
+    dragStart() {
+      console.log("drag started");
     },
     ...mapActions([StoreConfig.addCardList])
   },
-  beforeCreate: function() {
+  beforeMount: function() {
+    this.isLoading = true
+
     this.$axios
-      .get(UrlConfig.board.getBoard + "/0")
+      .get(UrlConfig.board.getBoard + "/" + this.hashId)
       .then(response => {
         this.$store.dispatch(StoreConfig.getBoard, response.data);
+        this.isLoading = false
       })
       .catch(ex => {
-        alert(ex);
-        // this.$router.push("/")
+        this.isLoading = false
+        this.isValidBoard = false
       });
   }
 };

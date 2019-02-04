@@ -19,5 +19,7 @@ namespace TrelloClone.Entities
         public string CARD_TITLE { get; set; }
 
         public string DESCRIPTION { get; set; }
+
+        public int? PREV_CARD { get; set; }
     }
 }

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "a6acc7a4f814be774e038951a43ec459b33e8649"
+    "signature": "c2ba242614c2b3acd94bda0a06d2cfd729f9ce00"
   },
   "compilationOptions": {
     "defines": [
@@ -26,7 +26,9 @@
         "dependencies": {
           "AutoMapper": "8.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "6.0.0",
+          "Hashids.net": "1.2.2",
           "Microsoft.AspNetCore.App": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "2.2.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.1",
           "Microsoft.NETCore.App": "2.2.0",
           "NLog.Web.AspNetCore": "4.7.0",
@@ -67,6 +69,20 @@
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "Hashids.net/1.2.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Hashids.net.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.0/Hashids.net.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/2.2.1": {
@@ -3402,6 +3418,13 @@
       "sha512": "sha512-EHxmLh6OuTuiGU3U+pHhNHwWOq1juK+Wbvr2n7Oj8/L819+DCnr7dtVtIGmBYHrle6foukEXqT5rcbRS9+CFyA==",
       "path": "automapper.extensions.microsoft.dependencyinjection/6.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.6.0.0.nupkg.sha512"
+    },
+    "Hashids.net/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/NFNMwG9foXcvfvjVk9FEQ/8GD6TbziE9kuFhLjbqITvv+4WNCKlcSbvdoEckoIfBgdx0uVn2SJDmOgDOfh2pQ==",
+      "path": "hashids.net/1.2.2",
+      "hashPath": "hashids.net.1.2.2.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/2.2.1": {
       "type": "package",

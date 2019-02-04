@@ -9,21 +9,22 @@ namespace TrelloClone.Dtos
 {
     public class BoardDto
     {
+        public string hashId { get; set; }
         public int boardSeq { get; set; }
         public string boardTitle { get; set; }
+        public bool isPublic { get; set; }
+        public bool canEditing { get; set; }
         public IEnumerable<CardListResultDto> cardLists { get; set; }
     }
 
-    public class CardListResultDto
+    public class CardListResultDto : TreeBaseDto
     {
-        public int listSeq { get; set; }
         public string listTitle { get; set; }
         public IEnumerable<CardResultDto> cards { get; set; }
     }
 
-    public class CardResultDto
+    public class CardResultDto : TreeBaseDto
     {
-        public int cardSeq { get; set; }
         public string title { get; set; }
         public string description { get; set; }
     }

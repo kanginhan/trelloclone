@@ -59,7 +59,7 @@ export default {
     login: function() {
       this.$axios.post(UrlConfig.auth.login, this.user)
       .then((response) => {
-        this.$router.push("/board");
+        this.$router.push("/boards");
       })
       .catch((ex) => {
         alert(ex);

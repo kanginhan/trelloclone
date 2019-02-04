@@ -31,9 +31,10 @@ var routes = [{
         component: Boards
     },
     {
-        path: '/board',
+        path: '/board/:hashId',
         name: 'board',
-        component: Board
+        component: Board,
+        props: true
     }
 ]
 

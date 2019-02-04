@@ -28,6 +28,18 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "Hashids.net/1.2.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/Hashids.net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Hashids.net.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4590,6 +4602,20 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
+      ]
+    },
+    "Hashids.net/1.2.2": {
+      "sha512": "/NFNMwG9foXcvfvjVk9FEQ/8GD6TbziE9kuFhLjbqITvv+4WNCKlcSbvdoEckoIfBgdx0uVn2SJDmOgDOfh2pQ==",
+      "type": "package",
+      "path": "hashids.net/1.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "hashids.net.1.2.2.nupkg.sha512",
+        "hashids.net.nuspec",
+        "lib/net40/Hashids.net.dll",
+        "lib/net45/Hashids.net.dll",
+        "lib/netstandard1.0/Hashids.net.dll"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -12350,8 +12376,10 @@
     ".NETCoreApp,Version=v2.2": [
       "AutoMapper >= 8.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 6.0.0",
+      "Hashids.net >= 1.2.2",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
+      "Microsoft.EntityFrameworkCore >= 2.2.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.1",
       "Microsoft.NETCore.App >= 2.2.0",
       "NLog.Web.AspNetCore >= 4.7.0",
@@ -12407,6 +12435,10 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
+          "Hashids.net": {
+            "target": "Package",
+            "version": "[1.2.2, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -12417,6 +12449,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.2.0, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.2.1, )"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",

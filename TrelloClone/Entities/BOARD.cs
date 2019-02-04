@@ -13,5 +13,7 @@ namespace TrelloClone.Entities
         public int BOARD_SEQ { get; set; }
 
         public string BOARD_TITLE { get; set; }
+
+        public bool PUBLIC_TF { get; set; }
     }
 }

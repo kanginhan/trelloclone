@@ -10,7 +10,16 @@
     <v-toolbar dark color="blue darken-2" height="80em">
       <v-icon dark>web</v-icon>
       <v-layout column class="pl-3">
-        <v-text-field v-if="isTitleEditing" :value="card.title" hide-details box autofocus color="white" @blur="saveCardTitle" @keyup.enter="saveCardTitle"></v-text-field>
+        <v-text-field 
+          v-if="isTitleEditing && canEditing" 
+          :value="card.title" 
+          hide-details 
+          box 
+          autofocus 
+          color="white" 
+          @blur="saveCardTitle" 
+          @keyup.enter="saveCardTitle"
+        ></v-text-field>
         <v-toolbar-title v-else @click="changeTitleEditing" class="clickable">{{card.title}}</v-toolbar-title>
         <div class="caption">
           in list
@@ -19,7 +28,7 @@
       </v-layout>
       <v-spacer></v-spacer>
       <v-toolbar-items>
-        <v-btn icon dark @click="deleteCard">
+        <v-btn v-if="canEditing" icon dark @click="deleteCard">
           <v-icon>delete_outline</v-icon>
         </v-btn>
         <v-btn icon dark @click="dialog = false">
@@ -34,7 +43,7 @@
         <span class="pl-2">Description</span>
       </v-card-title>
 
-      <template v-if="isDescEditing">
+      <template v-if="isDescEditing && canEditing">
         <v-textarea box autofocus auto-grow hide-details :value="descForTextarea" class="px-5" ref="textarea"></v-textarea>
           <v-btn color="success" dark class="ml-5" @click="saveCardDesc">Save</v-btn>
           <v-btn icon @click="changeDescEditing">
@@ -66,6 +75,9 @@ export default {
   computed: {
     descForTextarea: function(){
       return (this.card.description || "").replace(/<br\/>/gi, "\r\n")
+    },
+    canEditing: function(){
+      return this.$store.state.board.canEditing
     }
   },
   methods: {
@@ -80,8 +92,8 @@ export default {
       
       if(e.target.value){
         var payload = {
-          listSeq: this.cardList.listSeq,
-          cardSeq: this.card.cardSeq,
+          listSeq: this.cardList.seq,
+          seq: this.card.seq,
           cardTitle: e.target.value,
           description: this.card.description
         }
@@ -93,8 +105,8 @@ export default {
       
       if(this.$refs.textarea.lazyValue){
         var payload = {
-          listSeq: this.cardList.listSeq,
-          cardSeq: this.card.cardSeq,
+          listSeq: this.cardList.seq,
+          seq: this.card.seq,
           cardTitle: this.card.title,
           description: this.$refs.textarea.lazyValue.replace(/(?:\r\n|\r|\n)/g, '<br/>')
         }
@@ -105,8 +117,8 @@ export default {
       if(confirm("Are you sure you want to delete?")){
         this.dialog = false;
         var payload = {
-          listSeq: this.cardList.listSeq,
-          cardSeq: this.card.cardSeq
+          listSeq: this.cardList.seq,
+          seq: this.card.seq
         }
         this.$store.dispatch(StoreConfig.deleteCard, payload)
       }

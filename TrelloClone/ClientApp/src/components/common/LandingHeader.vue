@@ -12,7 +12,7 @@
     <v-spacer></v-spacer>
     <v-layout justify-end>
       <template v-if="isLogin === true">
-        <v-btn to="/board" color="blue darken-3" dark round>Go to Your Boards</v-btn>
+        <v-btn to="/boards" color="blue darken-3" dark round>Go to Your Boards</v-btn>
       </template>
       <template v-else-if="isLogin === false">
         <v-btn to="/login" flat round>Log in</v-btn>
